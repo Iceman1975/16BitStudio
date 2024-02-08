@@ -1,0 +1,200 @@
+fs-uae-arcade
+2.8.3
+enabling except hook
+enable tread exception handler
+uname_result(system='Windows', node='FireflowPD', release='8', version='6.2.9200', machine='AMD64', processor='Intel64 Family 6 Model 58 Stepping 9, GenuineIntel')
+['X:\\Emu\\FsUae\\Programs\\Windows\\x86\\fs-uae-launcher.exe']
+Fengestad Game System...
+[SETTINGS] Constructor <fsbc.settings.Settings object at 0x0637e750>
+[SETTINGS] No settings path specified
+[SETTINGS] Using default X:\Emu\FsUae\Data\Settings.ini
+[SETTINGS] Loading from X:\Emu\FsUae\Data\Settings.ini
+[SETTINGS] Set config_name = Unnamed Configuration2
+[SETTINGS] Set config_path = X:/Emu/FsUae/Configurations/Unnamed Configuration2.fs-uae
+[SETTINGS] Set configurations_dir_mtime = 1664957219+30
+[SETTINGS] Set kickstarts_dir_mtime = 1664957103
+[SETTINGS] Set last_floppy_dir = X:/Emu/WinUAE
+[SETTINGS] Set last_hd_dir = X:/
+[SETTINGS] Set last_rom_dir = D:/data/amiga/rom/Kickstart1.3
+[SETTINGS] Set maximized = 0
+FONT: Default is MS Shell Dlg 2 8
+Adding window reference <arcade.ui.arcade_window.ArcadeWindow object at 0x063b1cb0>
+set_size_from_layout, size = (960, 540)
+Window.set_size (960, 540)
+RealWindow.set_size (960, 540)
+RealWindow.set_size final size (960, 540)
+set_maximized True
+RealWindow.changeEvent(WindowStateChange)
+RealWindow.resizeEvent 960 540
+PyQt5.QtCore.QSize(960, 540) vs PyQt5.QtCore.QSize(960, 540)
+RealWindow.resize_to 960 540
+QtWindow.resizeEvent size = (640, 480)
+QtWindow.resizeEvent size = (960, 540)
+size after showMaximized (960, 540)
+RealWindow.resizeEvent 960 540
+PyQt5.QtCore.QSize(960, 540) vs PyQt5.QtCore.QSize(1920, 1040)
+RealWindow.resize_to 1920 1040
+QtWindow.resizeEvent size = (1920, 1040)
+[OPENGL] GLWidget.initializeGL
+[OPENGL] <_MainThread(MainThread, started 3040)>
+[OPENGL] Qt OpenGL information:
+[OPENGL] Valid context: True
+[OPENGL] Version major: 4
+[OPENGL] Version minor: 0
+[OPENGL] Context profile: 2
+[OPENGL] Direct rendering: True
+[OPENGL] Depth buffer size: 24
+[OPENGL] Double buffering: True
+[OPENGL] Auto buffer swap: True
+[OPENGL] GLWidget.resizeGL 1920 1040
+[OPENGL] <_MainThread(MainThread, started 3040)>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[OPENGL] PyOpenGL information:
+[OPENGL] Vendor: b'Intel'
+[OPENGL] Renderer: b'Intel(R) HD Graphics 4000'
+[OPENGL] Version: b'4.0.0 - Build 10.18.10.4358'
+[STATE] Reset state
+[STATE] Init state
+DEBUG:arcade:Init OpenGL menu display
+Resources.stream splash.png
+Resources.stream shadow.png
+Resources.stream shadow2.png
+Resources.stream gloss.png
+Resources.stream screen_gloss.png
+Resources.stream preview_static0.png
+Resources.stream default_item.png
+Resources.stream missing_screenshot.png
+Resources.stream missing_cover.png
+Resources.stream logo.png
+Resources.stream top.png
+Resources.stream top_logo.png
+Resources.stream top_logo_selected.png
+Resources.stream add.png
+Resources.stream add_selected.png
+Resources.stream home.png
+Resources.stream home_selected.png
+Resources.stream minimize.png
+Resources.stream minimize_selected.png
+Resources.stream close.png
+Resources.stream close_selected.png
+Resources.stream shutdown.png
+Resources.stream shutdown_selected.png
+Resources.stream bottom_bar.png
+Resources.stream screen_border_1.png
+Resources.stream screen_border_2.png
+Resources.stream top_background.png
+Resources.stream top_item.png
+Resources.stream top_item_selected.png
+Resources.stream top_item_left.png
+Resources.stream top_item_left_selected.png
+Resources.stream top_item_right.png
+Resources.stream top_item_arrow.png
+Resources.stream top_item_arrow_selected.png
+Resources.stream sidebar_background.png
+Resources.stream sidebar_background_shadow.png
+Resources.stream glow_top.png
+Resources.stream glow_top_left.png
+Resources.stream glow_left.png
+Resources.stream heading_strip.png
+Resources.stream item_background.png
+Resources.stream top_item_background.png
+Resources.stream logo-32.png
+Resources.stream stretch.png
+Resources.stream aspect.png
+load font title_font
+Resources.stream title_font.png
+Resources.stream title_font.json
+load font menu_font
+Resources.stream menu_font.png
+Resources.stream menu_font.json
+DEBUG:arcade:InputHandler._open_joysticks
+
+-------------------------------------------------------------------------------
+INPUTHANDLER REINIT JOYSTICKS
+reinit_joysticks
+DeviceManager.get_devices
+EnumerateHelper: finding connected joysticks
+FSUAE.start_with_args: ['list']
+current dir (cwd):  X:\Emu\FsUae
+using fs-uae executable: X:\Emu\FsUae\Programs\Windows\x86\fs-uae-device-helper.exe
+['X:\\Emu\\FsUae\\Programs\\Windows\\x86\\fs-uae-device-helper.exe', 'list']
+b'# fs-uae-device-helper 2.8.3 #\r\n## keyboards ##\r\nK: Keyboard\r\n## mice ##\r\nM: Mouse\r\nM: Mouse: HID-konforme Maus\r\nM: Mouse: ASUS Touchpad\r\n## joysticks ##\r\n# SDL_NumJoysticks(): 0\r\n## end ##\r\n'
+<Device 'Keyboard'> is keyboard device? True
+CONFIGURE menu Keyboard #MENU Keyboard
+read_config Keyboard
+get_config_files
+Resources.stream res/input/manifest.txt
+opened input manifest
+read configs from controllers_dir at X:/Emu/FsUae/Controllers
+read configs from controllers_dir at X:/Emu/FsUae/Data\Devs\Keyboards
+False
+no config file found for 'Keyboard' = Keyboard
+read_config keyboard_0_0_0_0_windows
+False
+no config file found for 'Keyboard' = keyboard_0_0_0_0_windows
+read_config keyboard
+True
+fsgs:res/input/keyboard.conf False
+reading config from stream fsgs:res/input/keyboard.conf
+Resources.stream res/input/keyboard.conf
+read_config default_keyboard
+True
+fsgs:res/input/default_keyboard.conf False
+reading config from stream fsgs:res/input/default_keyboard.conf
+Resources.stream res/input/default_keyboard.conf
+{'include': 'DEFAULT_KEYBOARD', 'key_left': 'LEFT', 'key_return': 'PRIMARY', 'key_escape': 'ESCAPE', 'SKIP_RIGHT': 'key_pagedown', 'key_right': 'RIGHT', 'RIGHT': 'key_right', 'SKIP_LEFT': 'key_pageup', 'DOWN': 'key_down', 'key_pageup': 'SKIP_LEFT', 'SECONDARY': 'key_space', 'DEFAULT_KEYBOARD': 'include', 'PRIMARY': 'key_return', 'key_down': 'DOWN', 'UP': 'key_up', 'LEFT': 'key_left', 'BACK': 'key_backspace', 'key_backspace': 'BACK', 'key_up': 'UP', 'key_pagedown': 'SKIP_RIGHT', 'key_space': 'SECONDARY', 'ESCAPE': 'key_escape'}
+<Device 'Mouse'> is keyboard device? False
+<Device 'Mouse: HID-konforme Maus'> is keyboard device? False
+<Device 'Mouse: ASUS Touchpad'> is keyboard device? False
+[INPUT] Key table: {'SDLK_SPACE': ('SECONDARY', 'Keyboard'), 'SDLK_DOWN': ('DOWN', 'Keyboard'), 'SDLK_LEFT': ('LEFT', 'Keyboard'), 'SDLK_ESCAPE': ('ESCAPE', 'Keyboard'), 'SDLK_RETURN': ('PRIMARY', 'Keyboard'), 'SDLK_RIGHT': ('RIGHT', 'Keyboard'), 'SDLK_BACKSPACE': ('BACK', 'Keyboard'), 'SDLK_PAGEUP': ('SKIP_LEFT', 'Keyboard'), 'SDLK_PAGEDOWN': ('SKIP_RIGHT', 'Keyboard'), 'SDLK_UP': ('UP', 'Keyboard')}
+EventHelper.init_device_helper
+FSUAE.start_with_args: ['--events']
+current dir (cwd):  X:\Emu\FsUae
+using fs-uae executable: X:\Emu\FsUae\Programs\Windows\x86\fs-uae-device-helper.exe
+['X:\\Emu\\FsUae\\Programs\\Windows\\x86\\fs-uae-device-helper.exe', '--events']
+glui.window.on_resize (1920, 1040)
+[1280, 720]
+0
+reinit_fonts, Render.get().display_height = 1040
+Resources.stream LiberationSans-Bold.ttf
+['Liberation Sans']
+['Bold', 'Bold Italic']
+['Liberation Sans']
+['Bold', 'Bold Italic']
+['Liberation Sans']
+['Bold', 'Bold Italic']
+['Liberation Sans']
+['Bold', 'Bold Italic']
+0 0 1920 1040
+DEBUG:arcade:[IMAGES] Image loader started
+update_path []
+filters for [] - []
+Database.find_games_new search = ''
+opening database X:/Emu/FsUae/Data\Databases\Launcher.sqlite
+SELECT DISTINCT uuid, name, platform, year, publisher, front_image, title_image, screen1_image, screen2_image, screen3_image, screen4_image, screen5_image, have, path, sort_key, subtitle, thumb_image, backdrop_image FROM game WHERE have >= 3 AND adult IS NULL AND path is NULL ORDER BY sort_key, platform
+update_path []
+filters for [] - []
+Database.find_games_new search = ''
+SELECT DISTINCT uuid, name, platform, year, publisher, front_image, title_image, screen1_image, screen2_image, screen3_image, screen4_image, screen5_image, have, path, sort_key, subtitle, thumb_image, backdrop_image FROM game WHERE have >= 3 AND adult IS NULL AND path is NULL ORDER BY sort_key, platform
+rescan games -- currently disabled
+show cursor until 1664974587.4048316
+[OPENGL] GLWidget.paintGL
+[OPENGL] <_MainThread(MainThread, started 3040)>
+creating display list for params ('gloss', 0.75)
+creating display list for params ('shadow', 0.75, 0.9)
+main_loop_iteration signalled quit
+TextureManager.unload_textures
+<fsui.qt.window.RealWindow object at 0x063b1c60>.closeEvent
+RealWindow.__on_closed
+closed.emit
+Removing window reference <arcade.ui.arcade_window.ArcadeWindow object at 0x063b1cb0>
+[IMAGES] ImageLoader.stop()
+[IMAGES] ImageLoader.stop()
+application.run returned
+[IMAGES] ImageLoader.stop()
+DEBUG:APP:Application.wait_for_threads
+DEBUG:APP:['<_MainThread(MainThread, started 3040)>']
+ --- arcade.arcade_main.main is done ---
+main returned
+calling Application stop
+sending quit signal

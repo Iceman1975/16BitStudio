@@ -1,0 +1,966 @@
+fs_data_init fs-uae fs-uae.dat
+checking dat file: C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\fs-uae.exe
+no dat file: C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\fs-uae.exe
+checking dat file: C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\fs-uae.dat
+checking dat file: C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\..\share\fs-uae\fs-uae.dat
+checking dat file: C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\..\..\Data\fs-uae.dat
+FS-UAE 2.8.3 (Built for Windows x86)
+Copyright 1995-2002 Bernd Schmidt, 1999-2015 Toni Wilen,
+2003-2007 Richard Drummond, 2006-2011 Mustafa 'GnoStiC' Tufan,
+2011-2015 Frode Solheim, and contributors.
+
+This is free software; see the file COPYING for copying conditions. There
+is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See the README for more copyright info, and the source code for
+a full list of contributors
+
+current directory is C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio
+UAE: Initializing core derived from WinUAE 3220
+CLOCKFREQ: QPF 10.00MHz (5.00MHz, DIV=2)
+
+----------------------------------------------------------------------------
+libfsemu init
+----------------------------------------------------------------------------
+
+fs_emu_init
+current time() is: 1698220049
+localtime+timegm:  1698223649
+localtime+mktime:  1698220049
+time of day:       1698220049 + (57188 / 1000000)
+localtime offset:  7200
+calling fs_ml_init
+fs_ml_init (operating system: windows)
+successfully set timeBeginPeriod(1)
+set process priority class to ABOVE_NORMAL_PRIORITY_CLASS
+initialize dialog module
+load config file
+loading config from C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\bin/../tools/emulators/FsUae/Configurations/amiga500.fs-uae
+
+----------------------------------------------------------------------------
+config (C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\bin/../tools/emulators/FsUae/Configurations/amiga500.fs-uae)
+----------------------------------------------------------------------------
+
+chip_memory = 512
+hard_drive_0 = c:/temp/amigaHD
+joystick_port_0 = Keyboard
+joystick_port_0_mode = joystick
+joystick_port_1 = Mouse
+kickstart_file = c:/temp/Kickstart1.3.rom
+slow_memory = 512
+- checking C:\Users\dornb\AppData\Local\fs-uae\configurations-dir
+checking C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\Portable.ini
+checking C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\Portable.ini
+checking C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Portable.ini
+checking C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Portable.ini
+using portable base dir C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae
+- using base ($BASE / $FSUAE) directory "C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae"
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Configurations (absolute)
+- using "Configurations" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Configurations"
+checking config file C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Configurations\Host.fs-uae
+- checking C:\Users\dornb\AppData\Local\fs-uae\data-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data (absolute)
+- using "Data" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Data"
+[I18N] Locale is set to de_DE
+[I18N] Using locale dir "C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\..\..\Data\Locale"
+
+----------------------------------------------------------------------------
+fs-uae init
+----------------------------------------------------------------------------
+
+configure logging: none
+[GLIB] Version 2.44.1 (Compiled against 2.44.1)
+- checking C:\Users\dornb\AppData\Local\fs-uae\kickstarts-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Kickstarts (absolute)
+- using "Kickstarts" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Kickstarts"
+- checking C:\Users\dornb\AppData\Local\fs-uae\floppies-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Floppies (absolute)
+- using "Floppies" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Floppies"
+- checking C:\Users\dornb\AppData\Local\fs-uae\cdroms-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\CD-ROMs (absolute)
+- using "CD-ROMs" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/CD-ROMs"
+- checking C:\Users\dornb\AppData\Local\fs-uae\hard-drives-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Hard Drives (absolute)
+- using "Hard Drives" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Hard Drives"
+[PLUGINS] Initializing
+- checking C:\Users\dornb\AppData\Local\fs-uae\plugins-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Plugins (absolute)
+- using "Plugins" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Plugins"
+[PLUGINS] Loading plugins from C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Plugins
+fs_uae_configure_amiga_model
+using PAL mode (50Hz)
+[VIDEO] fs_emu_set_video_frame_rate: 50.00 (50)
+[DISPLAY] Sync: g_fs_emu_video_sync_to_vblank = 0
+config match for "A500"
+fs_uae_state_dir:
+- checking C:\Users\dornb\AppData\Local\fs-uae\save-states-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Save States (absolute)
+- using "Save States" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States"
+save_states_dir: C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States
+save_dir_name not set, using amiga500
+- using state dir C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States\amiga500
+final state dir path: C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States\amiga500
+- checking C:\Users\dornb\AppData\Local\fs-uae\controllers-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Controllers (absolute)
+- using "Controllers" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Controllers"
+- checking C:\Users\dornb\AppData\Local\fs-uae\logs-dir
+- checking C:\Users\dornb\AppData\Local\fs-uae\cache-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Cache (absolute)
+- using "Cache" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache"
+resolve_path C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache\Logs (absolute)
+- using "Logs" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache/Logs"
+switch to log file C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache/Logs\fs-uae.log.txt
+- checking C:\Users\dornb\AppData\Local\fs-uae\themes-dir
+resolve_path C:\Users\dornb\OneDrive\dev\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Themes (absolute)
+- using "Themes" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Themes"
+themes_dir = C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Themes
+fs_emu_init_2
+THEME: Init
+THEME: Loading ""
+fs_emu_video_init
+full-scene anti-aliasing is not requested
+checking video sync mode
+not specified: no video sync
+no video sync (using timers only)
+using default video format BGRA
+using default texture format
+fs_emu_init_render
+scale: -1.00 -1.00 align: 0.50 0.50
+calling fs_ml_init_2
+fs_ml_input_init
+calling fs_ml_video_init
+[VIDEO] Using low latency vsync when full vsync is enabled
+fs_ml_mouse_init
+- adding system mouse
+MANYMOUSE: (c) 2005-2012 Ryan C. Gordon
+MANYMOUSE: Thread running
+MANYMOUSE: Adding Mouse: Logicool HID-compliant Cordless Mouse (Windows XP and later WM_INPUT interface)
+MANYMOUSE: Adding Mouse: HID-konforme Maus (Windows XP and later WM_INPUT interface)
+num joystick devices: 0
+read config
+fs_emu_input_init
+init_input_configs
+reading input device configs from C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Controllers
+reading input device configs from C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Data\Devs\Keyboards
+could not read directory C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Data\Devs\Keyboards
+reading input device configs from C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Controllers
+INPUT: Using default modifier key LALT
+INPUT: Initializing devices for menu
+0 Keyboard
+config name "Keyboard"
+get system config for device: Keyboard
+checked data "input/Keyboard.conf" = 3
+config file for Keyboard was not found
+did not find config for device "Keyboard"
+get system config for device: keyboard_0_0_0_0_windows
+checked data "input/keyboard_0_0_0_0_windows.conf" = 3
+config file for keyboard_0_0_0_0_windows was not found
+did not find menu config for device "keyboard_0_0_0_0_windows"
+get system config for device: keyboard
+checked data "input/keyboard.conf" = 0
+read config for keyboard for menu (from data)
+checked data "input/default_keyboard.conf" = 0
+read config for default_keyboard for menu (from data)
+error parsing "include"
+key_down (274) => action "down" (4)
+did not find action for "skip_left"
+key_left (276) => action "left" (1)
+did not find action for "default_keyboard"
+key_right (275) => action "right" (2)
+key_escape (27) => action "escape" (10)
+key_up (273) => action "up" (3)
+did not find action for "skip_right"
+key_backspace (8) => action "back" (6)
+did not find action for "secondary"
+key_return (13) => action "primary" (5)
+1 MOUSE
+config name "MOUSE"
+get system config for device: MOUSE
+checked data "input/MOUSE.conf" = 3
+config file for MOUSE was not found
+did not find config for device "MOUSE"
+get system config for device: mouse_0_0_0_0_windows
+checked data "input/mouse_0_0_0_0_windows.conf" = 3
+config file for mouse_0_0_0_0_windows was not found
+did not find menu config for device "mouse_0_0_0_0_windows"
+get system config for device: mouse
+checked data "input/mouse.conf" = 0
+read config for mouse for menu (from data)
+no config for platform menu
+did not find menu config for device "mouse"
+2 Mouse: Logicool HID-compliant Cordless Mouse
+config name "Mouse: Logicool HID-compliant Cordless Mouse"
+get system config for device: Mouse: Logicool HID-compliant Cordless Mouse
+checked data "input/Mouse: Logicool HID-compliant Cordless Mouse.conf" = 3
+config file for Mouse: Logicool HID-compliant Cordless Mouse was not found
+did not find config for device "Mouse: Logicool HID-compliant Cordless Mouse"
+get system config for device: mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows
+checked data "input/mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows.conf" = 3
+config file for mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows was not found
+did not find menu config for device "mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows"
+get system config for device: mouse_logicool_hid_compliant_cordless_mouse
+checked data "input/mouse_logicool_hid_compliant_cordless_mouse.conf" = 3
+config file for mouse_logicool_hid_compliant_cordless_mouse was not found
+did not find menu config for device "mouse_logicool_hid_compliant_cordless_mouse"
+3 Mouse: HID-konforme Maus
+config name "Mouse: HID-konforme Maus"
+get system config for device: Mouse: HID-konforme Maus
+checked data "input/Mouse: HID-konforme Maus.conf" = 3
+config file for Mouse: HID-konforme Maus was not found
+did not find config for device "Mouse: HID-konforme Maus"
+get system config for device: mouse_hid_konforme_maus_0_0_0_0_windows
+checked data "input/mouse_hid_konforme_maus_0_0_0_0_windows.conf" = 3
+config file for mouse_hid_konforme_maus_0_0_0_0_windows was not found
+did not find menu config for device "mouse_hid_konforme_maus_0_0_0_0_windows"
+get system config for device: mouse_hid_konforme_maus
+checked data "input/mouse_hid_konforme_maus.conf" = 3
+config file for mouse_hid_konforme_maus was not found
+did not find menu config for device "mouse_hid_konforme_maus"
+OPENAL: fs_emu_audio_init
+OPENAL: openal_audio_init
+[OPENAL] Opened device: OpenAL Soft
+[OPENAL] Information:
+[OPENAL] Devices:
+- OpenAL Soft
+[OPENAL] Default device: OpenAL Soft
+OPENAL: trying frequency 48000
+OPENAL: created context
+OPENAL: made context current
+openal: number of stereo sources is 2
+AUDIO: Buffer target size (ms) = 40
+fs_ml_video_create_window
+keyboard input grab: 305419896
+[SDL] Version 2.0.5 (Compiled against 2.0.5)
+[DISPLAY] 0: 1920x1080+0+0 @60
+Monitor - j 0 pos 0
+Monitor - j 1 pos 0
+Monitor - j 2 pos 0
+Monitor - j 3 pos 0
+Monitor index 0 flags 15
+Monitor: found index 0 for flag 2
+Monitor "middle-left" (flag 2) => index 0
+[SDL] Defaulting to fullscreen_mode = desktop for SDL 2
+automatic input grab: 1
+using windowed mode
+setting (windowed) video mode 960 540
+[SDL] CreateWindow(x=805240832, y=805240832, w=960, h=540, flags=34)
+[DISPLAY] Host refresh rate: 60 Hz
+fs_ml_configure_window
+hIconSmall = 0
+hIconBig = 0
+opengl vendor: ATI Technologies Inc.
+opengl renderer: AMD Radeon(TM) Graphics
+opengl version: 4.6.0 Compatibility Profile Context 22.20.28.220830
+opengl shading language version: 4.60
+opengl extensions: GL_EXT_abgr GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture3D GL_EXT_bgra GL_EXT_draw_range_elements GL_EXT_point_parameters GL_EXT_texture_edge_clamp GL_ARB_multitexture GL_ARB_multisample GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod GL_EXT_texture_lod_bias GL_NV_blend_square WGL_EXT_swap_control GL_ARB_point_parameters GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_texture_env_combine GL_ARB_texture_env_dot3 GL_ARB_depth_texture GL_ARB_fragment_program GL_ARB_vertex_program GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_EXT_texture_rectangle GL_NV_primitive_restart GL_S3_s3tc GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_occlusion_query GL_ARB_point_sprite GL_ARB_shader_objects GL_ARB_shading_language_100 GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_EXT_blend_equation_separate GL_EXT_depth_bounds_test GL_ARB_color_buffer_float GL_ARB_draw_buffers GL_ARB_half_float_pixel GL_ARB_pixel_buffer_object GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_framebuffer_object GL_EXT_pixel_buffer_object GL_OES_draw_texture GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_EXT_texture_format_BGRA8888 GL_ATI_separate_stencil GL_ATI_shader_texture_lod GL_EXT_draw_buffers2 GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_integer GL_EXT_transform_feedback GL_OES_EGL_image GL_EXT_provoking_vertex GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_rg GL_ARB_transform_feedback GL_ARB_vertex_array_object GL_EXT_direct_state_access GL_EXT_texture_snorm GL_ARB_compatibility GL_ARB_copy_buffer GL_ARB_depth_clamp GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_fragment_coord_conventions GL_ARB_sample_shading GL_ARB_shader_texture_lod GL_ARB_sync GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_multisample_no_array GL_ARB_uniform_buffer_object GL_ATI_meminfo GL_EXT_texture_storage GL_NV_copy_image GL_AMD_blend_minmax_factor GL_AMD_depth_clamp_separate GL_AMD_sample_positions GL_ARB_ES2_compatibility GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_debug_output GL_ARB_draw_indirect GL_ARB_explicit_attrib_location GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_occlusion_query2 GL_ARB_robustness GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_subroutine GL_ARB_tessellation_shader GL_ARB_texture_compression_bptc GL_ARB_texture_rgb10_a2ui GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_viewport_array GL_EXT_shader_image_load_store GL_EXT_texture_sRGB_decode GL_AMD_bus_addressable_memory GL_AMD_pinned_memory GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_shader_atomic_counters GL_ARB_shader_image_load_store GL_ARB_shading_language_420pack GL_ARB_texture_storage GL_ARB_transform_feedback_instanced GL_EXT_color_buffer_half_float GL_EXT_debug_label GL_AMD_shader_trinary_minmax GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_clear_buffer_object GL_ARB_compute_shader GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_fragment_layer_viewport GL_ARB_framebuffer_no_attachments GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_multi_draw_indirect GL_ARB_program_interface_query GL_ARB_shader_image_size GL_ARB_shader_storage_buffer_object GL_ARB_stencil_texturing GL_ARB_texture_buffer_range GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_EXT_copy_buffer GL_KHR_debug GL_AMD_gpu_shader_half_float GL_AMD_gpu_shader_int64 GL_ARB_bindless_texture GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_enhanced_layouts GL_ARB_indirect_parameters GL_ARB_multi_bind GL_ARB_query_buffer_object GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_sparse_texture GL_ARB_texture_stencil8 GL_EXT_copy_image GL_EXT_draw_buffers_indexed GL_EXT_geometry_point_size GL_EXT_gpu_shader5 GL_EXT_sRGB_write_control GL_EXT_shader_integer_mix GL_EXT_shader_io_blocks GL_EXT_tessellation_point_size GL_EXT_tessellation_shader GL_EXT_texture_border_clamp GL_EXT_texture_buffer GL_EXT_timer_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_NV_shader_atomic_int64 GL_ARB_clip_control GL_ARB_conditional_render_inverted GL_ARB_cull_distance GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_get_texture_sub_image GL_ARB_pipeline_statistics_query GL_ARB_shader_texture_image_samples GL_ARB_sparse_buffer GL_ARB_texture_barrier GL_ARB_transform_feedback_overflow_query GL_EXT_polygon_offset_clamp GL_EXT_render_snorm GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_OVR_multiview GL_ARB_gpu_shader_int64 GL_ARB_parallel_shader_compile GL_ARB_post_depth_coverage GL_ARB_shader_ballot GL_ARB_shader_clock GL_ARB_shader_viewport_layer_array GL_ARB_texture_filter_minmax GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_no_error GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_ARB_gl_spirv GL_EXT_clip_cull_distance GL_EXT_memory_object GL_EXT_memory_object_win32 GL_EXT_semaphore GL_EXT_semaphore_win32 GL_AMD_gpu_shader_int16 GL_ARB_polygon_offset_clamp GL_ARB_texture_filter_anisotropic GL_EXT_texture_compression_bptc GL_KHR_parallel_shader_compile GL_EXT_nonuniform_qualifier
+opengl max texture size (estimate): 16384x16384
+*** Setting swap interval to 0 ***
+initial input grab: 1
+init_opengl
+fs_emu_video_init_opengl
+setup_opengl
+loaded sub-texture "sidebar_edge.png"
+fs_image_destroy
+loaded sub-texture "sidebar.png"
+fs_image_destroy
+loaded sub-texture "gloss.png"
+fs_image_destroy
+loaded sub-texture "glow_left.png"
+fs_image_destroy
+loaded sub-texture "glow_top.png"
+fs_image_destroy
+loaded sub-texture "glow_top_left.png"
+fs_image_destroy
+loaded sub-texture "close.png"
+fs_image_destroy
+loaded sub-texture "volume.png"
+fs_image_destroy
+loaded sub-texture "volume_muted.png"
+fs_image_destroy
+loaded sub-texture "aspect.png"
+fs_image_destroy
+loaded sub-texture "stretch.png"
+fs_image_destroy
+loaded sub-texture "item_background.png"
+fs_image_destroy
+loaded sub-texture "top_item_background.png"
+fs_image_destroy
+loaded sub-texture "heading_strip.png"
+fs_image_destroy
+loaded sub-texture "pause_indicator.png"
+fs_image_destroy
+loaded sub-texture "logo-32.png"
+fs_image_destroy
+initializing menu
+load font from data
+font height: 32 pixels
+512 characters
+load font from data
+font height: 32 pixels
+512 characters
+[SHADERS] Initialize
+fs_ml_init_raw_input
+[RAWINPUT ]Old wndproc: ffff135f new wndproc: 00be6280
+create windows is done
+fs_uae_init_recording
+not running in record mode
+AUDIO: Stream 0,  frequency: 48000, buffers: 48 buffer size: 512 bytes
+AUDIO: Stream 1,  frequency: 44100, buffers: 48 buffer size: 28224 bytes
+adding rtg resolution 672x540
+adding rtg resolution 960x540
+adding rtg resolution 1344x1080
+adding rtg resolution 960x540
+resolution already exists
+adding rtg resolution 1920x1080
+fs_uae_init_video
+fs_uae_configure_menu
+fs_emu_run, main_function at 00406390
+emulation thread started
+thread priority set to THREAD_PRIORITY_ABOVE_NORMAL
+main function at 00406390
+amiga_main
+KB: keyboard_settrans
+SetThreadExecutionState(ES_CONTINUOUS | ES_DISPLAY_REQUIRED)
+checking OpenGL capabilities
+GL_ARB_sync extension found
+[OPENGL] Deciding video sync method
+[OPENGL] Using default sync method
+- SYNC_FINISH_SLEEP_SWAP_FINISH
+target_default_options p=03788380 type=0
+target_default_options: enabling floppy sounds
+ -- stub -- target_save_options zfile=085E1098 p=03788380
+built_in_chipset_prefs, ignore = 0
+fixup_cpu
+built_in_chipset_prefs, ignore = 0
+ -- stub -- target_fixup_options 
+graphics_setup
+preinit_shm
+NATMEM: Total physical RAM 31998 MB, all RAM 42905 MB
+NATMEM: Attempting to reserve: 2048 MB
+NATMEM: jit compiler 0
+VM: Reserve  0x80000000 bytes, try address 0x80000000
+VM: Reserve  0x80000000 bytes
+VM: Reserve  0x80000000 bytes failed!
+VM: Reserve  0x80000000 bytes, try address 0x80000000
+VM: Reserve  0x80000000 bytes
+VM: Reserve  0x80000000 bytes failed!
+VM: Reserve  0x78000000 bytes, try address 0x80000000
+VM: Reserve  0x78000000 bytes, got address 0x80000000
+NATMEM: Reserved 80000000-f8000000 (0x78000000 1920M)
+ -- stub -- target_cfgfile_load 
+built_in_chipset_prefs, ignore = 0
+fixup_cpu
+built_in_chipset_prefs, ignore = 0
+ -- stub -- target_fixup_options 
+set_device_rom path=(null) romtype=262144 devnum=0
+boardromconfig 00000000
+target_default_options p=03788380 type=1
+target_default_options: enabling floppy sounds
+built_in_chipset_prefs, ignore = 0
+
+----------------------------------------------------------------------------
+uae configuration
+----------------------------------------------------------------------------
+
+fs_uae_configure_amiga_hardware
+fs_uae_load_rom_files C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Kickstarts
+found file "Kickstart1.3.rom"
+amiga_add_rom_file C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Kickstarts\Kickstart1.3.rom
+- found cached crc32
+- rom added via cached entry
+configuring "Amiga 500", accuracy=1
+amiga_quickstart model=0 config=0 compa=0 (accuracy 1)
+set_device_rom path=(null) romtype=262144 devnum=0
+boardromconfig 00000000
+target_default_options p=03788380 type=1
+target_default_options: enabling floppy sounds
+built_in_chipset_prefs, ignore = 0
+set option "cachesize" to "0" (result: 1)
+resolve_path c:/temp/Kickstart1.3.rom (absolute)
+set option "kickstart_rom_file" to "c:/temp/Kickstart1.3.rom" (result: 1)
+set option "cpu_model" to "68000" (result: 1)
+set option "fpu_model" to "0" (result: 1)
+set option "mmu_model" to "0" (result: 1)
+set option "cpu_24bit_addressing" to "true" (result: 1)
+set option "cpu_speed" to "real" (result: 1)
+set option "blitter_cycle_exact" to "true" (result: 1)
+set option "cpu_compatible" to "true" (result: 1)
+set option "cpu_cycle_exact" to "true" (result: 1)
+set option "waiting_blits" to "false" (result: 1)
+set option "immediate_blits" to "false" (result: 1)
+set option "chipmem_size" to "1" (result: 1)
+set option "bogomem_size" to "2" (result: 1)
+set option "sound_stereo_separation" to "7" (result: 1)
+configure_floppies
+value for option floppy_drive_0: (null)
+set option "floppy0" to "" (result: 1)
+set option "floppy0type" to "0" (result: 1)
+value for option floppy_drive_1: (null)
+set option "floppy1" to "" (result: 1)
+set option "floppy1type" to "0" (result: 1)
+value for option floppy_drive_2: (null)
+set option "floppy2" to "" (result: 1)
+set option "floppy2type" to "0" (result: 1)
+value for option floppy_drive_3: (null)
+set option "floppy3" to "" (result: 1)
+set option "floppy3type" to "0" (result: 1)
+set option "nr_floppies" to "1" (result: 1)
+set option "floppy1" to "" (result: 1)
+set option "floppy1type" to "-1" (result: 1)
+set option "floppy2" to "" (result: 1)
+set option "floppy2type" to "-1" (result: 1)
+set option "floppy3" to "" (result: 1)
+set option "floppy3type" to "-1" (result: 1)
+set option "floppy_volume" to "75" (result: 1)
+set option "diskimage0" to "" (result: 1)
+set option "diskimage1" to "" (result: 1)
+set option "diskimage2" to "" (result: 1)
+set option "diskimage3" to "" (result: 1)
+set option "diskimage4" to "" (result: 1)
+set option "diskimage5" to "" (result: 1)
+set option "diskimage6" to "" (result: 1)
+set option "diskimage7" to "" (result: 1)
+set option "diskimage8" to "" (result: 1)
+set option "diskimage9" to "" (result: 1)
+set option "diskimage10" to "" (result: 1)
+set option "diskimage11" to "" (result: 1)
+set option "diskimage12" to "" (result: 1)
+set option "diskimage13" to "" (result: 1)
+set option "diskimage14" to "" (result: 1)
+set option "diskimage15" to "" (result: 1)
+set option "diskimage16" to "" (result: 1)
+set option "diskimage17" to "" (result: 1)
+set option "diskimage18" to "" (result: 1)
+set option "diskimage19" to "" (result: 1)
+fs_uae_configure_hard_drives
+resolve_path c:/temp/amigaHD (absolute)
+hard drive mount: c:/temp/amigaHD
+device: DH0
+mount name: amigaHD
+read only: 0
+boot priority: 0
+set option "filesystem2" to "rw,DH0:amigaHD:c:/temp/amigaHD,0" (result: 1)
+set option "uaehf0" to "dir,rw,DH0:amigaHD:c:/temp/amigaHD,0" (result: 1)
+configure_cdrom
+configuring joystick ports:
+set option "joyport0" to "none" (result: 1)
+set option "joyport1" to "none" (result: 1)
+fs_uae_configure_actions
+fs_uae_read_override_actions_for_port 0
+fs_uae_read_override_actions_for_port 1
+fs_uae_read_override_actions_for_port 2
+fs_uae_read_override_actions_for_port 3
+fs_uae_read_override_actions_for_port 4
+fs_uae_read_override_actions_for_port 5
+fs_uae_read_override_actions_for_port 6
+fs_uae_read_override_actions_for_port 7
+configuring joystick port 1 (Mouse)
+configuring joystick port 0 (Keyboard)
+configure joystick "Keyboard" for "amiga"
+matched device #0
+config name "Keyboard"
+get system config for device: Keyboard
+checked data "input/Keyboard.conf" = 3
+config file for Keyboard was not found
+did not find config for device "Keyboard"
+config name "keyboard_0_0_0_0_windows"
+get system config for device: keyboard_0_0_0_0_windows
+checked data "input/keyboard_0_0_0_0_windows.conf" = 3
+config file for keyboard_0_0_0_0_windows was not found
+did not find config for device "keyboard_0_0_0_0_windows"
+config name "keyboard"
+get system config for device: keyboard
+checked data "input/keyboard.conf" = 0
+read config for keyboard for amiga (from data)
+checked data "input/default_keyboard.conf" = 0
+read config for default_keyboard for amiga (from data)
+error parsing "include"
+key_ralt (307) => action "1" (33)
+key_down (274) => action "down" (28)
+key_left (276) => action "left" (25)
+key_right (275) => action "right" (26)
+did not find action for "default_keyboard"
+key_rctrl (305) => action "1" (33)
+key_up (273) => action "up" (27)
+configuring joystick port 2 (nothing)
+nothing connected to port
+configuring joystick port 3 (nothing)
+nothing connected to port
+configuring joystick port 4 (nothing)
+nothing connected to port
+configuring joystick port 5 (nothing)
+nothing connected to port
+configuring joystick port 6 (nothing)
+nothing connected to port
+configuring joystick port 7 (nothing)
+nothing connected to port
+set option "statefile" to "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States\amiga500\Saved State.uss" (result: 1)
+amiga_set_save_image_dir C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States\amiga500
+- checking C:\Users\dornb\AppData\Local\fs-uae\module-ripper-dir
+resolve_path C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache\Modules (absolute)
+- using "Modules" directory "C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache/Modules"
+amiga_set_module_ripper_dir C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache/Modules
+set option "sound_frequency" to "48000" (result: 1)
+amiga_set_audio_frequency: 48000
+fs_uae_set_uae_paths
+did not find "built-in" driveclick directory
+read_custom_uae_options
+writing uae config to C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Cache/Logs\debug.uae
+ -- stub -- target_save_options zfile=17268640 p=03788380
+
+----------------------------------------------------------------------------
+end of uae configuration
+----------------------------------------------------------------------------
+
+ -- stub -- init_joystick return 1
+ -- stub -- init_mouse return 1
+ -- stub -- init_kb return 1
+ -- stub -- gui_init 
+ -- stub -- logging_init 
+init_shm
+NATMEM: size            0x01000000
+NATMEM: z3size        + 0x00000000
+NATMEM: z3rtgmem_size + 0x00000000
+NATMEM: othersize     + 0x00000000
+NATMEM: totalsize     = 0x01000000
+Z3 REAL mapping. Not JIT direct compatible.
+NATMEM: JIT direct compatible: 0
+NATMEM: Our special area: 80000000-81000000 (0x01000000 16M)
+built_in_chipset_prefs, ignore = 0
+fixup_cpu
+built_in_chipset_prefs, ignore = 0
+ -- stub -- target_fixup_options 
+ -- stub -- target_run 
+ -- stub -- get_mouse_num return 0
+    (ignoring further calls to get_mouse_num)
+ -- stub -- get_joystick_num return 0
+    (ignoring further calls to get_joystick_num)
+ -- stub -- get_kb_num return 0
+    (ignoring further calls to get_kb_num)
+RTAREA located at 00F00000
+MMAN: mapped_malloc 0x00010000 start=0x00000000 UAE Boot ROM (rtarea)
+MMAN: Flags: ROMIN
+uaegfx.card magic code: 00F03000-00F0313E ABI=00000000
+segtracker: install
+MMAN: mapped_malloc 0x00010000 start=0x00000000 Filesystem autoconfig (filesys)
+MMAN: Flags: IO SAFE INDIRECT
+MMAN: mapped_malloc 0x00080000 start=0x00000000 Kickstart ROM (kick)
+MMAN: Flags: ROM THREADSAFE
+ -- stub -- my_issamepath 
+ -- stub -- my_issamepath 
+ -- stub -- my_issamepath 
+    (ignoring further calls to my_issamepath)
+MMAN: mapped_malloc 0x00100000 start=0x00000000 Chip memory (chip)
+MMAN: Flags: RAM THREADSAFE
+MMAN: mapped_malloc 0x00080000 start=0x00c00000 Slow memory (bogo)
+MMAN: Flags: RAM THREADSAFE
+ROM loader.. (<none>)
+read_rom_name c:/temp/Kickstart1.3.rom
+Known ROM 'KS ROM v1.3 (A500,A1000,A2000)' loaded
+ROM loader end
+cpuboard_map currprefs.cpuboard_type = 0
+MAPROM: cs_ksmirror_e0 set - mirroring kickstart at 0x00e00000
+memory init end
+gfx_set_picasso_state 0
+using text cache texture size 2048x2048
+drive_insert drv=01f361c4 dnum=3 fname= fake=0
+drive_insert drv=01f361c4 dnum=3 fname= fake=1
+gui_disk_image_change drive 3 <no disk>
+driveclick_insert drive=3 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 3 <no disk>
+drive_insert drv=01f13bb8 dnum=2 fname= fake=0
+drive_insert drv=01f13bb8 dnum=2 fname= fake=1
+gui_disk_image_change drive 2 <no disk>
+driveclick_insert drive=2 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 2 <no disk>
+drive_insert drv=01ef15ac dnum=1 fname= fake=0
+drive_insert drv=01ef15ac dnum=1 fname= fake=1
+gui_disk_image_change drive 1 <no disk>
+driveclick_insert drive=1 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 1 <no disk>
+drive_insert drv=01ecefa0 dnum=0 fname= fake=0
+drive_insert drv=01ecefa0 dnum=0 fname= fake=1
+gui_disk_image_change drive 0 <no disk>
+driveclick_insert drive=0 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 0 <no disk>
+No disk in drive 0.
+fixup_cpu
+CPU cycleunit: 256 (0.500)
+1870 CPU functions
+Building CPU, 44274 opcodes (0 -2 1)
+JIT: &countdown =  040d6ee0
+JIT: &build_comp = 00515640
+JIT: JIT: JIT compiler is not enabled
+CPU=68000, FPU=0, MMU=0, JIT=0. prefetch and cycle-exact 24-bit
+graphics_init
+calling reset_drawing
+init_colors
+init_sound
+CPU cycleunit: 256 (0.500)
+ -- stub -- target_reset 
+ -- stub -- my_resolvesoftlink 
+my_getvolumeinfo c:/temp/amigaHD
+ -- stub -- filesys_addexternals 
+init_shm
+cpuboard_map currprefs.cpuboard_type = 0
+MAPROM: cs_ksmirror_e0 set - mirroring kickstart at 0x00e00000
+memory init end
+uae_start_tread "filesys" function at 004b8f90 arg 02d55920
+initparallel
+Reset at 00000000. Chipset mask = 00000000
+00000000    2048K/4 =     512K Chip memory
+00200000    8192K/0 =    8192K <none>
+00A00000    2048K/0 =    2048K CIA
+00C00000     512K/1 =     512K Slow memory
+00C80000    1024K/0 =    1024K Custom chipset
+00D80000     256K/0 =     256K <none>
+00DC0000      64K/0 =      64K Battery backed up clock (none)
+00DD0000      64K/0 =      64K <none>
+00DE0000     128K/0 =     128K Custom chipset
+00E00000     512K/1 =     512K Kickstart ROM (F6290043)
+00E80000      64K/0 =      64K Autoconfig Z2
+00E90000     448K/0 =     448K <none>
+00F00000      64K/1 =      64K UAE Boot ROM
+00F10000     448K/0 =     448K <none>
+00F80000     512K/1 =     512K Kickstart ROM (F6290043)
+uae_start_tread "ide" function at 004e0430 arg 02db3fa0
+drive_insert drv=01f361c4 dnum=3 fname= fake=0
+drive_insert drv=01f361c4 dnum=3 fname= fake=1
+gui_disk_image_change drive 3 <no disk>
+driveclick_insert drive=3 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 3 <no disk>
+drive_insert drv=01f13bb8 dnum=2 fname= fake=0
+drive_insert drv=01f13bb8 dnum=2 fname= fake=1
+gui_disk_image_change drive 2 <no disk>
+driveclick_insert drive=2 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 2 <no disk>
+drive_insert drv=01ef15ac dnum=1 fname= fake=0
+drive_insert drv=01ef15ac dnum=1 fname= fake=1
+gui_disk_image_change drive 1 <no disk>
+driveclick_insert drive=1 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 1 <no disk>
+drive_insert drv=01ecefa0 dnum=0 fname= fake=0
+drive_insert drv=01ecefa0 dnum=0 fname= fake=1
+gui_disk_image_change drive 0 <no disk>
+driveclick_insert drive=0 eject=1 click_initialized=0 wave_initialized=0 currprefs.floppyslots[drive].dfxclick=1
+gui_disk_image_change drive 0 <no disk>
+mousehack_reset
+PAL mode V=50.0000Hz H=15625.0881Hz (227x312+0) IDX=10 (PAL) D=0 RTG=0/0
+target_graphics_buffer_update - clearing buffer
+RTGFREQ: 312*50.0000 = 15600.0000 / 50.0 = 312
+fs_emu_audio_resume_stream 0
+gfx_set_picasso_state 0
+ -- stub -- fpux_restore 
+hardreset, memory cleared
+init_sound
+driveclick_init
+open_sound returning 1
+restarting audio stream 0 (buffer underrun)
+wait_for_frame_no_netplay: new frame rate 50.00 (time: 20000)
+fs_uae_reconfigure_input_ports_amiga
+sending event to set port 0 to mode 2
+sending event to set port 1 to mode 1
+amiga_set_joystick_port_mode port=0 mode=2
+fs_uae_reconfigure_input_ports_host
+configuring joystick port 0
+* amiga joystick
+* using device Keyboard
+configure joystick "Keyboard" for "amiga"
+matched device #0
+config name "Keyboard"
+get system config for device: Keyboard
+checked data "input/Keyboard.conf" = 3
+config file for Keyboard was not found
+did not find config for device "Keyboard"
+config name "keyboard_0_0_0_0_windows"
+get system config for device: keyboard_0_0_0_0_windows
+checked data "input/keyboard_0_0_0_0_windows.conf" = 3
+config file for keyboard_0_0_0_0_windows was not found
+did not find config for device "keyboard_0_0_0_0_windows"
+config name "keyboard"
+get system config for device: keyboard
+checked data "input/keyboard.conf" = 0
+read config for keyboard for amiga (from data)
+checked data "input/default_keyboard.conf" = 0
+read config for default_keyboard for amiga (from data)
+error parsing "include"
+key_ralt (307) => action "1" (33)
+key_down (274) => action "down" (28)
+key_left (276) => action "left" (25)
+key_right (275) => action "right" (26)
+did not find action for "default_keyboard"
+key_rctrl (305) => action "1" (33)
+key_up (273) => action "up" (27)
+configuring joystick port 1
+* nothing in port
+* FIXME
+configuring joystick port 2
+* nothing in port
+* FIXME
+configuring joystick port 3
+* nothing in port
+* FIXME
+configuring joystick port 4
+* nothing in port
+* FIXME
+configuring joystick port 5
+* nothing in port
+* FIXME
+configuring joystick port 6
+* nothing in port
+* FIXME
+configuring joystick port 7
+* nothing in port
+* FIXME
+additionally mapping mouse to port 0
+mapping mouse to port 0
+fs_emu_configure_mouse (device: mouse)
+did not match device #0 (Keyboard)
+matched device #1
+map_custom_keyboard_actions
+map_custom_joystick_actions
+map_custom_joystick_actions for Keyboard
+config name "keyboard_0_0_0_0_windows"
+get system config for device: keyboard_0_0_0_0_windows
+checked data "input/keyboard_0_0_0_0_windows.conf" = 3
+config file for keyboard_0_0_0_0_windows was not found
+did not find generic gamepad config for device "keyboard_0_0_0_0_windows"
+config name "keyboard"
+get system config for device: keyboard
+checked data "input/keyboard.conf" = 0
+read config for keyboard for universal (from data)
+checked data "input/default_keyboard.conf" = 0
+read config for default_keyboard for universal (from data)
+no config for platform universal
+did not find generic gamepad config for device "keyboard"
+map_custom_joystick_actions for MOUSE
+config name "mouse_0_0_0_0_windows"
+get system config for device: mouse_0_0_0_0_windows
+checked data "input/mouse_0_0_0_0_windows.conf" = 3
+config file for mouse_0_0_0_0_windows was not found
+did not find generic gamepad config for device "mouse_0_0_0_0_windows"
+config name "mouse"
+get system config for device: mouse
+checked data "input/mouse.conf" = 0
+read config for mouse for universal (from data)
+no config for platform universal
+did not find generic gamepad config for device "mouse"
+map_custom_joystick_actions for Mouse: Logicool HID-compliant Cordless Mouse
+config name "mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows"
+get system config for device: mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows
+checked data "input/mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows.conf" = 3
+config file for mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows was not found
+did not find generic gamepad config for device "mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows"
+config name "mouse_logicool_hid_compliant_cordless_mouse"
+get system config for device: mouse_logicool_hid_compliant_cordless_mouse
+checked data "input/mouse_logicool_hid_compliant_cordless_mouse.conf" = 3
+config file for mouse_logicool_hid_compliant_cordless_mouse was not found
+did not find generic gamepad config for device "mouse_logicool_hid_compliant_cordless_mouse"
+map_custom_joystick_actions for Mouse: HID-konforme Maus
+config name "mouse_hid_konforme_maus_0_0_0_0_windows"
+get system config for device: mouse_hid_konforme_maus_0_0_0_0_windows
+checked data "input/mouse_hid_konforme_maus_0_0_0_0_windows.conf" = 3
+config file for mouse_hid_konforme_maus_0_0_0_0_windows was not found
+did not find generic gamepad config for device "mouse_hid_konforme_maus_0_0_0_0_windows"
+config name "mouse_hid_konforme_maus"
+get system config for device: mouse_hid_konforme_maus
+checked data "input/mouse_hid_konforme_maus.conf" = 3
+config file for mouse_hid_konforme_maus was not found
+did not find generic gamepad config for device "mouse_hid_konforme_maus"
+amiga_set_joystick_port_mode port=1 mode=1
+fs_uae_reconfigure_input_ports_host
+configuring joystick port 0
+* amiga joystick
+* using device Keyboard
+configure joystick "Keyboard" for "amiga"
+matched device #0
+config name "Keyboard"
+get system config for device: Keyboard
+checked data "input/Keyboard.conf" = 3
+config file for Keyboard was not found
+did not find config for device "Keyboard"
+config name "keyboard_0_0_0_0_windows"
+get system config for device: keyboard_0_0_0_0_windows
+checked data "input/keyboard_0_0_0_0_windows.conf" = 3
+config file for keyboard_0_0_0_0_windows was not found
+did not find config for device "keyboard_0_0_0_0_windows"
+config name "keyboard"
+get system config for device: keyboard
+checked data "input/keyboard.conf" = 0
+read config for keyboard for amiga (from data)
+checked data "input/default_keyboard.conf" = 0
+read config for default_keyboard for amiga (from data)
+error parsing "include"
+key_ralt (307) => action "1" (33)
+key_down (274) => action "down" (28)
+key_left (276) => action "left" (25)
+key_right (275) => action "right" (26)
+did not find action for "default_keyboard"
+key_rctrl (305) => action "1" (33)
+key_up (273) => action "up" (27)
+configuring joystick port 1
+* amiga mouse
+* using device MOUSE
+mapping mouse to port 1
+fs_emu_configure_mouse (device: MOUSE)
+did not match device #0 (Keyboard)
+matched device #1
+configuring joystick port 2
+* nothing in port
+* FIXME
+configuring joystick port 3
+* nothing in port
+* FIXME
+configuring joystick port 4
+* nothing in port
+* FIXME
+configuring joystick port 5
+* nothing in port
+* FIXME
+configuring joystick port 6
+* nothing in port
+* FIXME
+configuring joystick port 7
+* nothing in port
+* FIXME
+map_custom_keyboard_actions
+map_custom_joystick_actions
+map_custom_joystick_actions for Keyboard
+config name "keyboard_0_0_0_0_windows"
+get system config for device: keyboard_0_0_0_0_windows
+checked data "input/keyboard_0_0_0_0_windows.conf" = 3
+config file for keyboard_0_0_0_0_windows was not found
+did not find generic gamepad config for device "keyboard_0_0_0_0_windows"
+config name "keyboard"
+get system config for device: keyboard
+checked data "input/keyboard.conf" = 0
+read config for keyboard for universal (from data)
+checked data "input/default_keyboard.conf" = 0
+read config for default_keyboard for universal (from data)
+no config for platform universal
+did not find generic gamepad config for device "keyboard"
+map_custom_joystick_actions for MOUSE
+config name "mouse_0_0_0_0_windows"
+get system config for device: mouse_0_0_0_0_windows
+checked data "input/mouse_0_0_0_0_windows.conf" = 3
+config file for mouse_0_0_0_0_windows was not found
+did not find generic gamepad config for device "mouse_0_0_0_0_windows"
+config name "mouse"
+get system config for device: mouse
+checked data "input/mouse.conf" = 0
+read config for mouse for universal (from data)
+no config for platform universal
+did not find generic gamepad config for device "mouse"
+map_custom_joystick_actions for Mouse: Logicool HID-compliant Cordless Mouse
+config name "mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows"
+get system config for device: mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows
+checked data "input/mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows.conf" = 3
+config file for mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows was not found
+did not find generic gamepad config for device "mouse_logicool_hid_compliant_cordless_mouse_0_0_0_0_windows"
+config name "mouse_logicool_hid_compliant_cordless_mouse"
+get system config for device: mouse_logicool_hid_compliant_cordless_mouse
+checked data "input/mouse_logicool_hid_compliant_cordless_mouse.conf" = 3
+config file for mouse_logicool_hid_compliant_cordless_mouse was not found
+did not find generic gamepad config for device "mouse_logicool_hid_compliant_cordless_mouse"
+map_custom_joystick_actions for Mouse: HID-konforme Maus
+config name "mouse_hid_konforme_maus_0_0_0_0_windows"
+get system config for device: mouse_hid_konforme_maus_0_0_0_0_windows
+checked data "input/mouse_hid_konforme_maus_0_0_0_0_windows.conf" = 3
+config file for mouse_hid_konforme_maus_0_0_0_0_windows was not found
+did not find generic gamepad config for device "mouse_hid_konforme_maus_0_0_0_0_windows"
+config name "mouse_hid_konforme_maus"
+get system config for device: mouse_hid_konforme_maus
+checked data "input/mouse_hid_konforme_maus.conf" = 3
+config file for mouse_hid_konforme_maus was not found
+did not find generic gamepad config for device "mouse_hid_konforme_maus"
+Display Size: 640x480 Offset: 74x36
+First: 26 Last: 0 MinV: 0 MaxV: 0 Min: 26
+[VIDEO] fs_emu_set_video_frame_rate: 50.00 (50)
+[DISPLAY] Sync: g_fs_emu_video_sync_to_vblank = 0
+restarting audio stream 0 (buffer underrun)
+Illegal instruction: 4e7b at 00FC0564 -> 00FC0582
+SERIAL: period=372, baud=9600, hsyncs=14, bits=8, PC=fc2234
+EMU: Ungrab input
+EMU: Grab input
+Card 1: Z2 0x00e90000   64K ROM Filesystem autoconfig
+Memory map after autoconfig:
+00000000    2048K/4 =     512K Chip memory
+00200000    8192K/0 =    8192K <none>
+00A00000    2048K/0 =    2048K CIA
+00C00000     512K/1 =     512K Slow memory
+00C80000    1024K/0 =    1024K Custom chipset
+00D80000     256K/0 =     256K <none>
+00DC0000      64K/0 =      64K Battery backed up clock (MSM6242B)
+00DD0000      64K/0 =      64K <none>
+00DE0000     128K/0 =     128K Custom chipset
+00E00000     512K/1 =     512K Kickstart ROM (F6290043)
+00E80000      64K/0 =      64K <none>
+00E90000      64K/0 =      64K Filesystem autoconfig
+00EA0000     384K/0 =     384K <none>
+00F00000      64K/1 =      64K UAE Boot ROM
+00F10000     448K/0 =     448K <none>
+00F80000     512K/1 =     512K Kickstart ROM (F6290043)
+filesystem: diagentry 00c01af0 configdev 00c015d8
+PAL mode V=50.0000Hz H=15625.0881Hz (227x312+1) IDX=10 (PAL) D=0 RTG=0/0
+target_graphics_buffer_update - clearing buffer
+Display Size: 640x400 Offset: 74x36
+First: 44 Last: 244 MinV: 26 MaxV: 313 Min: 26
+Mounting uaehf.device 0 (0):
+FS: mounted virtual unit DH0 (c:/temp/amigaHD)
+FS: amigaHD (flags=00000002,E=0,ED=1,EF=0,native='c:/temp/amigaHD') starting..
+Display Size: 640x548 Offset: 74x0
+First: 26 Last: 320 MinV: 26 MaxV: 300 Min: 26
+Display Size: 640x512 Offset: 74x36
+First: 26 Last: 320 MinV: 44 MaxV: 300 Min: 26
+Display Size: 640x538 Offset: 74x36
+First: 44 Last: 320 MinV: 44 MaxV: 313 Min: 26
+Display Size: 640x512 Offset: 74x36
+First: 44 Last: 304 MinV: 26 MaxV: 300 Min: 26
+Display Size: 640x520 Offset: 74x36
+First: 44 Last: 304 MinV: 26 MaxV: 313 Min: 26
+EMU: Ungrab input
+EMU: Grab input
+fs_emu_audio_resume_stream 0
+EMU: Ungrab input
+EMU: Grab input
+Received SDL_QUIT
+fs_ml_quit called
+libfsemu on_quit: no quit function
+Received SDL_QUIT
+fs_ml_quit already called
+calling amiga_quit
+uae_quit
+UAE: Stopping
+ -- stub -- close_joystick 
+ -- stub -- close_mouse 
+ -- stub -- close_kb 
+ -- stub -- gui_exit 
+mapped_free indirect Filesystem autoconfig
+hdf_close_target
+hdf_close_target
+hdf_close_target
+hdf_close_target
+hdf_close_target
+hdf_close_target
+hdf_close_target
+mapped_free nondirect Slow memory
+mapped_free nondirect Kickstart ROM
+mapped_free nondirect Chip memory
+ -- stub -- machdep_free 
+real_main returned
+calling filesys_flush_cache
+flushing all file streams
+[CORE] Return from amiga_main
+fs_ml_quit already called
+calling fs_ml_stop because emu thread is done
+fs_emu_run: main loop is done
+fs_emu_run: waiting for emulation thread to stop
+fs_emu_run: emulation thread stopped
+OPENAL: fs_emu_audio_shutdown
+OPENAL: Stopping stream 0
+OPENAL: Stopping stream 1
+OPENAL: alcDestroyContext
+OPENAL: alcCloseDevice
+fs_emu_run: returning
+fs-uae shutting down, fs_emu_run returned
+state dir C:/Users/dornb/OneDrive/dev/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Save States\amiga500 was removed because it was empty
+end of main function

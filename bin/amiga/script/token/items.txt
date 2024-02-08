@@ -1,0 +1,17 @@
+joystick1_changed,Joystick1.changed,INT,false
+joystick1_left,Joystick1.left,INT,false
+joystick1_right,Joystick1.right,INT,false
+joystick1_up,Joystick1.up,INT,false
+joystick1_down,Joystick1.down,INT,false
+joystick1_button,Joystick1.button,INT,false
+joystick1_button_automatic,Joystick1.automatic,INT,false
+player_current_speed_x,Player.speedX,INT,false
+player_current_speed_y,Player.speedY,INT,false
+virtualscreen_xPosition,virtualscreen.xPosition,INT,false
+virtualscreen_yPosition,virtualscreen.yPosition,INT,false
+GAME_STATE_INIT,Game.GAME_STATE_INIT,INT,true
+GAME_STATE_RUNNING,Game.STATE_RUNNING,INT,true
+GAME_STATE_DONE,Game.STATE_DONE,INT,true
+GAME_STATE_OVER,Game.STATE_OVER,INT,true
+GAME_STATE_RESPAWN,Game.STATE_RESPAWN,INT,true
+GAME_STATE_DYING,Game.STATE_DYING,INT,true

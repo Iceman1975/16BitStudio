@@ -1,0 +1,11 @@
+# FS-UAE configuration saved by FS-UAE Launcher
+# Last saved: 2022-10-05 10:06:59
+
+[fs-uae]
+chip_memory = 512
+hard_drive_0 = c:/temp/amigaHD
+joystick_port_0 = Keyboard
+joystick_port_0_mode = joystick
+joystick_port_1 = Mouse
+kickstart_file = c:/temp/Kickstart1.3.rom
+slow_memory = 512

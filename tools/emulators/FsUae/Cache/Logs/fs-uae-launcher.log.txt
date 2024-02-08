@@ -1,0 +1,681 @@
+fs-uae-launcher
+2.8.3
+enabling except hook
+enable tread exception handler
+uname_result(system='Windows', node='FireflowPD', release='8', version='6.2.9200', machine='AMD64', processor='Intel64 Family 6 Model 58 Stepping 9, GenuineIntel')
+['G:\\workspace_AMIGA\\AmigaStudio\\tools\\emulators\\FsUae\\Programs\\Windows\\x86\\fs-uae-launcher.exe']
+FS-UAE Launcher 2.8.3
+[SETTINGS] Constructor <fsbc.settings.Settings object at 0x069b5d70>
+[SETTINGS] No settings path specified
+[SETTINGS] Using default G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini
+[SETTINGS] Loading from G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini
+[SETTINGS] Set config_name = Config
+[SETTINGS] Set config_path = X:/Emu/FsUae/Configurations/Config.fs-uae
+[SETTINGS] Set configurations_dir_mtime = 1664957219+30
+[SETTINGS] Set kickstarts_dir_mtime = 1664957103
+[SETTINGS] Set last_floppy_dir = X:/Emu/WinUAE
+[SETTINGS] Set last_hd_dir = X:/
+[SETTINGS] Set last_rom_dir = D:/data/amiga/rom/Kickstart1.3
+[SETTINGS] Set maximized = 0
+[I18N] Initialize_locale language = 
+[I18N] Locale is en_GB
+[I18N] Checking G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\share\fs-uae-launcher\share-dir
+[I18N] Checking G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\..\share\fs-uae-launcher\share-dir
+[I18N] bindtextdomain fs-uae-launcher: G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Data\Locale
+[I18N] find translations for en_GB in local directory G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Data\Locale
+[I18N] Path to mo file: None
+[I18N] Translations object: <gettext.NullTranslations object at 0x06a4e270>
+FONT: Default is MS Shell Dlg 2 8
+Resources.stream res/16/fs-uae-launcher.png
+Resources.stream res/22/fs-uae-launcher.png
+[Errno 0] Error: 'launcher\\res\\22\\fs-uae-launcher.png'
+looking up resource res/22/fs-uae-launcher.png
+- package: launcher
+DEBUG:APP:* checking for data dir G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\share\fs-uae-launcher
+DEBUG:APP:* checking for data dir G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\share\fs-uae-launcher
+DEBUG:APP:data dirs: ['G:\\workspace_AMIGA\\AmigaStudio\\tools\\emulators\\FsUae\\Programs\\Windows\\x86']
+Resources.stream res/24/fs-uae-launcher.png
+[Errno 0] Error: 'launcher\\res\\24\\fs-uae-launcher.png'
+looking up resource res/24/fs-uae-launcher.png
+- package: launcher
+Resources.stream res/32/fs-uae-launcher.png
+Resources.stream res/64/fs-uae-launcher.png
+Resources.stream res/128/fs-uae-launcher.png
+Resources.stream res/256/fs-uae-launcher.png
+FSUAELauncherApplication.pre_start
+loading last config from 'G:\\workspace_AMIGA\\AmigaStudio\\tools\\emulators\\FsUae\\Data\\Settings.ini'
+loading config from 'X:/Emu/FsUae/Configurations/Config.fs-uae'
+[SETTINGS] Set config_path = X:/Emu/FsUae/Configurations/Config.fs-uae (unchanged)
+__changed before load: 
+update_kickstart_in_config
+opening database G:/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Data\Databases\Files.sqlite
+[CONFIG] Fix loaded config
+config set cdrom_image_5 to 
+config set __netplay_password to 
+config set x_game_uuid to 
+config set x_cdrom_image_10_sha1 to 
+config set x_floppy_drive_0_sha1 to 
+config set floppy_image_16 to 
+config set platform to 
+config set lemon_url to 
+config set cdrom_image_14 to 
+config set graphics_memory to 
+config set accelerator_memory to 
+config set x_cdrom_image_0_sha1 to 
+config set cdrom_image_12 to 
+config set cdrom_image_4 to 
+config set __variant_rating to 
+config set x_cdrom_drive_0_sha1 to 
+config set cdrom_image_10 to 
+config set floppy_drive_speed to 
+config set x_cdrom_image_18_sha1 to 
+config set x_kickstart_ext_file to 
+config set floppy_image_6 to 
+config set floppy_drive_volume_empty to 
+config set cdrom_drive_0 to 
+config set __netplay_host to 
+config set x_whdload_version to 
+config set variant_rating to 
+config set publisher to 
+config set graphics_card to 
+config set x_hard_drive_0_sha1 to 
+config set wikipedia_url to 
+config set floppy_drive_1 to 
+config set screen1_sha1 to 
+config set x_cdrom_image_17_sha1 to 
+config set floppy_image_12 to 
+config set cdrom_image_15 to 
+config set __netplay_players to 
+config set x_variant_error to 
+config set x_kickstart_file_sha1 to 891e9a547772fe0c6c19b610baf8bc4ea7fcb785
+config set floppy_image_7 to 
+config set x_cdrom_image_14_sha1 to 
+config set cdrom_image_18 to 
+config set mobygames_url to 
+config set cdrom_image_16 to 
+config set x_floppy_image_16_sha1 to 
+config set x_cdrom_image_19_sha1 to 
+config set cdrom_drive_1 to 
+config set cdrom_image_6 to 
+config set hard_drive_2_label to 
+config set x_floppy_image_2_sha1 to 
+config set x_floppy_image_18_sha1 to 
+config set joystick_port_1 to 
+config set joystick_port_1_autofire to 
+config set floppy_image_1 to 
+config set x_missing_files to 
+config set x_cdrom_image_4_sha1 to 
+config set download_file to 
+config set sub_title to 
+config set floppy_image_8 to 
+config set cdrom_image_0 to 
+config set x_variant_notice to 
+config set x_game_xml_path to 
+config set x_joy_emu_conflict to 
+config set x_hard_drive_1_sha1 to 
+config set x_cdrom_drive_3_sha1 to 
+config set floppy_image_14 to 
+config set floppy_image_17 to 
+config set joystick_port_2_autofire to 
+config set joystick_port_1_mode to 
+config set x_cdrom_image_1_sha1 to 
+config set x_floppy_image_17_sha1 to 
+config set floppy_image_10 to 
+config set joystick_port_2 to 
+config set hard_drive_3_label to 
+config set joystick_port_3_mode to 
+config set developer to 
+config set __error to 
+config set x_cdrom_image_13_sha1 to 
+config set x_hard_drive_3_sha1 to 
+config set x_cdrom_image_15_sha1 to 
+config set cdrom_drive_2 to 
+config set accelerator to 
+config set __netplay_ready to 
+config set x_floppy_image_1_sha1 to 
+config set __netplay_game to 
+config set x_floppy_image_5_sha1 to 
+config set floppy_image_13 to 
+config set cdrom_image_8 to 
+config set x_hard_drive_2_sha1 to 
+config set floppy_image_18 to 
+config set download_terms to 
+config set cdrom_image_1 to 
+config set amiga_model to 
+config set freezer_cartridge to 
+config set sound_card to 
+config set __version to FIXME
+config set longplay_url to 
+config set cdrom_image_2 to 
+config set cdrom_drive_count to 
+config set x_game_notice to 
+config set kickstart_ext_file to 
+config set x_variant_warning to 
+config set __netplay_port to 
+config set dongle_type to 
+config set floppy_image_4 to 
+config set x_cdrom_image_2_sha1 to 
+config set hard_drive_2_priority to 
+config set floppy_image_19 to 
+config set blizzard_scsi_kit to 
+config set x_floppy_drive_3_sha1 to 
+config set x_whdload_args to 
+config set x_floppy_image_13_sha1 to 
+config set floppy_drive_0 to 
+config set joystick_port_4_mode to 
+config set save_disk to 
+config set x_cdrom_image_5_sha1 to 
+config set hard_drive_2 to 
+config set year to 
+config set floppy_image_11 to 
+config set joystick_port_3_autofire to 
+config set joystick_port_0_autofire to 
+config set joystick_port_2_mode to 
+config set ntsc_mode to 
+config set __netplay_state_dir_name to 
+config set mouse_integration to 
+config set floppy_image_2 to 
+config set x_floppy_image_9_sha1 to 
+config set hard_drive_3_priority to 
+config set download_page to 
+config set floppy_drive_3 to 
+config set floppy_image_9 to 
+config set screen3_sha1 to 
+config set screen5_sha1 to 
+config set cdrom_image_17 to 
+config set cdrom_image_9 to 
+config set front_sha1 to 
+config set x_floppy_image_15_sha1 to 
+config set x_cdrom_image_3_sha1 to 
+config set x_floppy_drive_1_sha1 to 
+config set x_cdrom_drive_1_sha1 to 
+config set cdrom_image_11 to 
+config set database_url to 
+config set hard_drive_3 to 
+config set x_cdrom_image_7_sha1 to 
+config set cdrom_drive_3 to 
+config set x_floppy_image_12_sha1 to 
+config set x_cdrom_image_11_sha1 to 
+config set x_floppy_image_11_sha1 to 
+config set x_kickstart_ext_file_sha1 to 
+config set x_floppy_image_4_sha1 to 
+config set cdrom_image_19 to 
+config set kickstart_file to 
+config set floppy_image_5 to 
+config set x_floppy_image_6_sha1 to 
+config set hard_drive_0_label to 
+config set title_sha1 to 
+config set joystick_port_0_mode to 
+config set hard_drive_1_label to 
+config set download_notice to 
+config set x_cdrom_image_6_sha1 to 
+config set x_floppy_image_19_sha1 to 
+config set x_floppy_image_10_sha1 to 
+config set x_cdrom_image_16_sha1 to 
+config set languages to 
+config set variant_uuid to 
+config set screen4_sha1 to 
+config set bsdsocket_library to 
+config set floppy_image_0 to 
+config set title to 
+config set __database to 
+config set x_floppy_image_8_sha1 to 
+config set motherboard_ram to 
+config set x_cdrom_image_8_sha1 to 
+config set x_floppy_image_7_sha1 to 
+config set screen2_sha1 to 
+config set hard_drive_0 to X:/RelAMI
+config set network_card to 
+config set x_floppy_image_0_sha1 to 
+config set x_floppy_image_14_sha1 to 
+config set x_cdrom_image_9_sha1 to 
+config set x_cdrom_image_12_sha1 to 
+config set uaegfx_card to 
+config set cdrom_drive_0_delay to 
+config set accuracy to 
+config set hard_drive_1 to 
+config set thelegacy_url to 
+config set x_kickstart_file to G:/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Kickstarts/Kickstart1.3.rom
+config set slow_memory to 
+config set homepage_url to 
+config set whdload_url to 
+config set amigamemo_url to 
+config set floppy_drive_count to 
+config set players to 
+config set floppy_image_15 to 
+config set cpu to 
+config set joystick_port_3 to 
+config set __netplay_addresses to 
+config set cdrom_image_3 to 
+config set hard_drive_0_priority to 
+config set x_floppy_image_3_sha1 to 
+config set zorro_iii_memory to 
+config set joystick_port_0 to 
+config set x_cdrom_drive_2_sha1 to 
+config set hard_drive_1_priority to 
+config set cdrom_image_7 to 
+config set cdrom_image_13 to 
+config set chip_memory to 
+config set jit_compiler to 
+config set floppy_image_3 to 
+config set protection to 
+config set viewport to 
+config set hol_url to 
+config set fast_memory to 
+config set x_floppy_drive_2_sha1 to 
+config set floppy_drive_2 to 
+config set __ready to 0
+config set __changed to 1
+config set __changed to 0
+__changed after load: 0
+[SETTINGS] Set config_name = Config (unchanged)
+[SETTINGS] Set config_xml_path =  (unchanged)
+[CONFIG] Loaded last configuration file
+config_startup_scan G:/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Configurations
+
+... database.find_local_configurations
+opening database G:/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Data\Databases\Launcher.sqlite
+... walk configs_dir
+... commit
+BaseDatabase.commit
+[SETTINGS] Register atexit save path = G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini
+[SETTINGS] Set configurations_dir_mtime = 1664982324+30
+kickstart_startup_scan
+... database.find_local_roms
+... walk kickstarts_dir
+{'G:/workspace_AMIGA/AmigaStudio/tools/emulators/FsUae/Kickstarts/Kickstart1.3.rom': None}
+... commit
+BaseDatabase.commit
+[SETTINGS] Set kickstarts_dir_mtime = 1664982324
+loading plugins
+FSUAELauncherApplication.start
+FSUAELauncherApplication.pre_start
+using screen size (1920, 1080)
+Adding window reference <launcher.ui.launcher_window.LauncherWindow object at 0x069ed580>
+Resources.stream res/main_menu.png
+Resources.stream res/new_button.png
+__current_index_changed 0 inhibit False
+[SETTINGS] Set game_list_uuid =  (unchanged)
+- old list uuid ''
+- set choice index to None
+__current_index_changed -1 inhibit False
+__current_index_changed 0 inhibit False
+- game lists [['', 'Configs and Games'], ['106409c1-dc49-4601-8e47-8cf6780ddb3b', 'Configs'], ['cbc209ef-c93d-4db7-be52-c159bfec43dc', 'Games']]
+- ''
+VerticalItemView selectionModel =  <PyQt5.QtCore.QItemSelectionModel object at 0x069edbc0>
+Resources.stream res/16/controller.png
+Resources.stream res/fsuae_config_16.png
+search for 
+extract search terms for: 
+word: 
+- new_word: 
+- sub_words: ['']
+new words: ['']
+terms {''}
+Database.find_games_new search = ''
+SELECT DISTINCT uuid, name, platform, year, publisher, front_image, title_image, screen1_image, screen2_image, screen3_image, screen4_image, screen5_image, have, path, sort_key, subtitle, thumb_image, backdrop_image FROM game WHERE have >= 1 AND adult IS NULL ORDER BY sort_key, platform
+Resources.stream res/16/arrow_down_yellow.png
+Resources.stream res/16/arrow_down_green.png
+Resources.stream res/16/blank.png
+Resources.stream res/fsuae_config_16.png
+Resources.stream res/adf_game_16.png
+Resources.stream res/ipf_game_16.png
+Resources.stream res/cd_game_16.png
+Resources.stream res/hd_game_16.png
+Resources.stream res/16/delete_grey.png
+Resources.stream res/16/blank.png
+Resources.stream res/16/bullet.png
+Resources.stream res/16/arrow_down_yellow.png
+Resources.stream res/16/arrow_down_green.png
+Resources.stream res/16/thumb_up_mod.png
+Resources.stream res/16/thumb_down_mod.png
+Resources.stream res/rating_fav_16.png
+[SETTINGS] Set game_uuid =  (unchanged)
+Resources.stream res/16/bullet.png
+__current_index_changed 0 inhibit False
+Resources.stream res/16/rating_fav_2.png
+Resources.stream res/16/thumb_up_2.png
+Resources.stream res/16/thumb_down_2.png
+Resources.stream res/save_button.png
+WARNING: SettingsBehavior without remove_listener implementation
+[SETTINGS] Set config_name = Config (unchanged)
+config set __changed to 1
+config set __changed to 1
+using screen size (1920, 1080)
+Resources.stream res/16/fullscreen_window.png
+Resources.stream res/16/fullscreen_fullscreen.png
+Resources.stream res/16/fullscreen_desktop.png
+Resources.stream res/16/monitor_left.png
+Resources.stream res/16/monitor_middle_left.png
+Resources.stream res/16/monitor_middle_right.png
+Resources.stream res/16/monitor_right.png
+Resources.stream res/16/warning_2.png
+Resources.stream res/windowed_16.png
+Resources.stream res/fullscreen_16.png
+WARNING: ConfigBehavior without remove_listener implementation
+WARNING: ConfigBehavior without remove_listener implementation
+__current_index_changed 0 inhibit False
+__current_index_changed 1 inhibit False
+__current_index_changed 1 inhibit False
+ChoiceControl floppy_drive_count 
+WARNING: Could not find value 
+__current_index_changed 5 inhibit False
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/refresh_button.png
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+DeviceManager: finding connected joysticks
+FSUAE.start_with_args: ['--list']
+current dir (cwd):  G:\workspace_AMIGA\AmigaStudio\tools
+using fs-uae executable: G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Programs\Windows\x86\fs-uae-device-helper.exe
+['G:\\workspace_AMIGA\\AmigaStudio\\tools\\emulators\\FsUae\\Programs\\Windows\\x86\\fs-uae-device-helper.exe', '--list']
+b'# fs-uae-device-helper 2.8.3 #\r\n## keyboards ##\r\nK: Keyboard\r\n## mice ##\r\nM: Mouse\r\nM: Mouse: HID-konforme Maus\r\nM: Mouse: ASUS Touchpad\r\n## joysticks ##\r\n# SDL_NumJoysticks(): 0\r\n## end ##\r\n'
+__current_index_changed 2 inhibit False
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+__current_index_changed 1 inhibit False
+Resources.stream res/32x32/go-home.png
+ChoiceControl floppy_drive_count 
+WARNING: Could not find value 
+__current_index_changed 5 inhibit False
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/clear_button.png
+Resources.stream res/remove_button.png
+Resources.stream res/add_button.png
+QListView selectionModel <PyQt5.QtCore.QItemSelectionModel object at 0x06b65300>
+Resources.stream res/floppy_16.png
+Resources.stream res/32x32/media-floppy.png
+ChoiceControl cdrom_drive_count 
+WARNING: Could not find value 
+__current_index_changed 2 inhibit False
+Resources.stream res/eject_button.png
+Resources.stream res/browse_file_16.png
+ChoiceControl cdrom_drive_0_delay 
+__current_index_changed 1 inhibit False
+Resources.stream res/clear_button.png
+Resources.stream res/remove_button.png
+Resources.stream res/add_button.png
+QListView selectionModel <PyQt5.QtCore.QItemSelectionModel object at 0x06b65990>
+Resources.stream res/cdrom_16.png
+Resources.stream res/32x32/media-optical.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_folder_16.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_folder_16.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_folder_16.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/eject_button.png
+Resources.stream res/browse_folder_16.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/16/information.png
+Resources.stream res/32x32/drive-harddisk.png
+Resources.stream res/browse_file_16.png
+Resources.stream res/browse_file_16.png
+ChoiceControl chip_memory 
+WARNING: Could not find value 
+__current_index_changed 7 inhibit False
+ChoiceControl motherboard_ram 
+WARNING: Could not find value 
+__current_index_changed 8 inhibit False
+ChoiceControl slow_memory 
+WARNING: Could not find value 
+__current_index_changed 5 inhibit False
+ChoiceControl zorro_iii_memory 
+WARNING: Could not find value 
+__current_index_changed 14 inhibit False
+ChoiceControl fast_memory 
+__current_index_changed 9 inhibit False
+ChoiceControl accelerator_memory 
+WARNING: Could not find value 
+__current_index_changed 10 inhibit False
+ChoiceControl graphics_memory 
+WARNING: Could not find value 
+__current_index_changed 10 inhibit False
+Resources.stream res/32x32/application-x-firmware.png
+Resources.stream res/refresh_button.png
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+Resources.stream res/16/lightning_off.png
+__current_index_changed 2 inhibit False
+Resources.stream res/16/lightning_off.png
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+Resources.stream res/16/lightning_off.png
+__current_index_changed 1 inhibit False
+Resources.stream res/16/lightning_off.png
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+Resources.stream res/16/lightning_off.png
+Resources.stream res/16/lightning_off.png
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+Resources.stream res/16/lightning_off.png
+Resources.stream res/16/lightning_off.png
+FIXME: ComboBox not respecting read_only(because of missing lineEdit then
+Resources.stream res/16/information.png
+Resources.stream res/32x32/applications-games.png
+ChoiceControl accelerator 
+ChoiceControl blizzard_scsi_kit 
+__current_index_changed 1 inhibit False
+ChoiceControl graphics_card 
+ChoiceControl sound_card 
+ChoiceControl network_card 
+ChoiceControl bsdsocket_library 
+__current_index_changed 1 inhibit False
+Resources.stream res/32x32/audio-card.png
+ChoiceControl cpu 
+WARNING: Could not find value 
+__current_index_changed 14 inhibit False
+ChoiceControl jit_compiler 
+__current_index_changed 1 inhibit False
+ChoiceControl floppy_drive_speed 
+__current_index_changed 1 inhibit False
+SpinValueControl floppy_drive_volume_empty 
+SpinValueControl implicit value 
+ChoiceControl freezer_cartridge 
+ChoiceControl dongle_type 
+Resources.stream res/32x32/system-shutdown.png
+
+
+
+select tab 0 1
+using screen size (1920, 1080)
+Resources.stream res/screenshot.png
+Resources.stream res/screenshot_overlay.png
+Resources.stream res/cover.png
+Resources.stream res/cover_overlay.png
+Resources.stream res/cover_overlay_square.png
+Resources.stream res/16/world.png
+Resources.stream res/16/pencil.png
+Resources.stream res/16/lock.png
+Resources.stream res/16/lock_open_green.png
+ -- protection -- 
+Resources.stream res/16/error.png
+Resources.stream res/16/warning_3.png
+Resources.stream res/16/information.png
+
+
+
+GOT x_joy_emu_conflict
+
+
+
+set_kickstart_from_model
+update_kickstart_in_config
+Resources.stream res/16/flag-jp.png
+Resources.stream res/16/flag-it.png
+Resources.stream res/16/flag-es.png
+Resources.stream res/16/flag-fr.png
+Resources.stream res/16/flag-de.png
+Resources.stream res/16/flag-gb.png
+Resources.stream res/16/user.png
+Resources.stream res/16/world_link.png
+Resources.stream res/16/drop_down_arrow.png
+Resources.stream res/16/drop_down_arrow_disabled.png
+Window.set_size (1231, 628)
+RealWindow.set_size (1231, 628)
+RealWindow.set_size final size (1231, 628)
+ImplicitConfigHandler.do_update
+config set __implicit_uae_a3000mem_size to 0
+config set __implicit_int_kickstart_version to 1.3
+config set __implicit_uae_floppy2 to 
+config set __implicit_fast_memory to 0
+config set __implicit_int_default_floppy_type to 0
+config set __implicit_uae_cd32fmv to false
+config set __implicit_int_graphics_card_name to Unknown GFX Card
+config set __implicit_chip_memory to 512
+config set __implicit_uae_gfxcard_type to 
+config set __implicit_uae_chipset to ocs
+config set __implicit_bsdsocket_library to 0
+config set __implicit_kickstart_file to 
+config set __implicit_uae_floppy2type to -1
+config set __implicit_dongle_type to 0
+config set __implicit_int_ppc_model to 
+config set __implicit_uae_floppy3type to -1
+config set __implicit_uae_slirp_implementation to auto
+config set __implicit_cdrom_drive_count to 0
+config set __implicit_uae_cpuboard_type to none
+config set __implicit_joystick_port_2_mode to nothing
+config set __implicit_cpu to 68000
+config set __implicit_slow_memory to 512
+config set __implicit_joystick_port_3_mode to nothing
+config set __implicit_int_model to A500
+config set __implicit_uae_gfxcard_size to 0
+config set __implicit_uae_cpu_model to 68000
+config set __implicit_kickstart_ext_file to 
+config set __implicit_motherboard_ram to 0
+config set __implicit_uae_rtc to MSM6242B
+config set __implicit_uae_cd32cd to false
+config set __implicit_int_accelerator_name to 
+config set __implicit_int_cpuboardmem1_size to 0
+config set __implicit_uae_floppy0type to 0
+config set __implicit_uae_a2065 to 
+config set __implicit_amiga_model to A500
+config set __implicit_int_z3fastmem_size to 0
+config set __implicit_int_model_name to Amiga 500
+config set __implicit_uae_bsdsocket_emu to false
+config set __implicit_int_kickstart_sha1 to 891e9a547772fe0c6c19b610baf8bc4ea7fcb785
+config set __implicit_uae_fpu_model to 0
+config set __implicit_zorro_iii_memory to 0
+config set __implicit_uae_sana2 to false
+config set __implicit_int_kickstart_revision to 34.5
+config set __implicit_uae_chipset_compatible to A500
+config set __implicit_int_chipset_name to OCS
+config set __implicit_int_uae_boot_rom to false
+config set __implicit_joystick_port_0_mode to mouse
+config set __implicit_floppy_drive_count to 1
+config set __implicit_graphics_memory to 0
+config set __implicit_jit_compiler to 0
+config set __implicit_int_graphics_card_bus to 
+config set __implicit_uae_z3chipmem_size to 0
+config set __implicit_int_fastmem_size to 0
+config set __implicit_sound_card to 0
+config set __implicit_int_mbresmem_low_size to 0
+config set __implicit_int_chipmem_size to 524288
+config set __implicit_accelerator to 0
+config set __implicit_uae_toccata to false
+config set __implicit_uae_floppy1 to 
+config set __implicit_uae_floppy1type to -1
+config set __implicit_uae_floppy0 to 
+config set __implicit_freezer_cartridge to 0
+config set __implicit_uaegfx_card to 
+config set __implicit_graphics_card to 
+config set __implicit_int_cpu_name to 68000
+config set __implicit_accelerator_memory to 0
+config set __implicit_joystick_port_1_mode to joystick
+config set __implicit_uae_floppy3 to 
+config set __implicit_network_card to 0
+config set __implicit_floppy_drive_speed to 100
+config set __implicit_int_z3chipmem_size to 0
+config set __implicit_uae_native_code to false
+config set __implicit_uaenative_library to 0
+config set __implicit_int_kickstart_ext_sha1 to 
+config set __implicit_int_bogomem_size to 524288
+config set __implicit_uae_mmu_model to 0
+config set __implicit_uae_z3mem_size to 0
+config set __implicit_uae_cpu_24bit_addressing to true
+config set __implicit_fpu to 0
+__current_index_changed 0 inhibit False
+__current_index_changed 0 inhibit False
+__current_index_changed 1 inhibit False
+__current_index_changed 0 inhibit False
+__current_index_changed 0 inhibit False
+__current_index_changed 1 inhibit False
+__current_index_changed 1 inhibit False
+__current_index_changed 0 inhibit False
+__current_index_changed 0 inhibit False
+__current_index_changed 1 inhibit False
+__current_index_changed 0 inhibit False
+RealWindow.resizeEvent 1231 628
+PyQt5.QtCore.QSize(1231, 628) vs PyQt5.QtCore.QSize(1231, 628)
+RealWindow.resize_to 1231 628
+on_resize, size = (1231, 628)
+[SETTINGS] Set maximized = 0 (unchanged)
+3
+latest version available:  3.0.5
+current version:  2.8.3
+update check result:  1
+[SETTINGS] Set __update_available = 3.0.5
+on_resize, size = (1231, 628)
+[SETTINGS] Set maximized = 0 (unchanged)
+3
+ImplicitConfigHandler.do_update
+<fsui.qt.window.RealWindow object at 0x069ed170>.closeEvent
+RealWindow.__on_closed
+closed.emit
+Removing window reference <launcher.ui.launcher_window.LauncherWindow object at 0x069ed580>
+SettingsDialog.reset_instance
+Widget.on_destroy <launcher.ui.TabPanel.TabPanel object at 0x069ed670>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x069ed7b0>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x069d0990>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b65300>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b65990>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b6d170>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b6dad0>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b7b260>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b7b850>
+Widget.on_destroy <launcher.ui.TabButton.TabButton object at 0x06b7bee0>
+Widget.on_destroy <launcher.ui.book.Book object at 0x069ed710>
+Widget.on_destroy <fsui.qt.Panel.Panel object at 0x069ed8f0>
+SettingsBehavior: remove_listener <launcher.ui.GameListSelector.GameListSelector object at 0x069ed9e0>
+Widget.on_destroy <fsui.qt.Panel.Panel object at 0x069edbc0>
+ConfigBehavior: remove_listener <launcher.ui.ConfigurationsPanel.RatingChoice object at 0x069edcb0>
+Widget.on_destroy <fsui.qt.Panel.Panel object at 0x069edd00>
+Widget.on_destroy <launcher.ui.book.Book object at 0x069ede40>
+Widget.on_destroy <launcher.ui.MainPanel.MainPanel object at 0x069d0210>
+Widget.on_destroy <launcher.ui.FloppiesPanel.FloppiesPanel object at 0x069d0a30>
+ConfigBehavior: remove_listener <launcher.ui.MediaListGroup.SaveDiskCheckBox object at 0x06b65080>
+Widget.on_destroy <launcher.ui.cd_panel.CDPanel object at 0x06b653a0>
+Widget.on_destroy <launcher.ui.HardDrivesPanel.HardDrivesPanel object at 0x06b65a30>
+Widget.on_destroy <launcher.ui.romram.RomRamPanel object at 0x06b6d260>
+Widget.on_destroy <launcher.ui.InputPanel.InputPanel object at 0x06b6db70>
+Widget.on_destroy <launcher.ui.config.expansionspanel.ExpansionsPanel object at 0x06b7b350>
+Widget.on_destroy <launcher.ui.config.additionalconfigpanel.AdditionalConfigPanel object at 0x06b7b940>
+Widget.on_destroy <launcher.ui.options.SpinValueControl object at 0x06b7bcb0>
+SettingsBehavior: remove_listener <launcher.ui.launch.FullscreenModeButton object at 0x069edf30>
+SettingsBehavior: remove_listener <launcher.ui.settings.monitor_button.MonitorButton object at 0x069edf80>
+SettingsBehavior: remove_listener <launcher.ui.launch.ScreenInfoLabel object at 0x069d0030>
+SettingsBehavior: remove_listener <launcher.ui.launch.VideoSyncCheckBox object at 0x069d0080>
+Widget.on_destroy <launcher.ui.settings.override_warning.OverrideWarning object at 0x069d00d0>
+ConfigBehavior: remove_listener <launcher.ui.settings.override_warning.OverrideWarning object at 0x069d00d0>
+ConfigBehavior: remove_listener <launcher.ui.launch.StartButton object at 0x069d01c0>
+Widget.on_destroy <launcher.ui.bottombar.BottomPanel.BottomPanel object at 0x06b7bf80>
+[IMAGES] ImageLoader.stop
+[IMAGES] ImageLoader.stop
+Widget.on_destroy <launcher.ui.bottombar.BottomPanel.BottomPanel object at 0x06b8b530>
+[SETTINGS] Save <fsbc.settings.Settings object at 0x069b5d70>
+[SETTINGS] Writing to G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini.partial
+[SETTINGS] Moving to G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini
+[IMAGES] ImageLoader.on_quit_signal
+[IMAGES] ImageLoader.on_quit_signal
+app_main done
+[SETTINGS] Save <fsbc.settings.Settings object at 0x069b5d70>
+[SETTINGS] Writing to G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini.partial
+[SETTINGS] Moving to G:\workspace_AMIGA\AmigaStudio\tools\emulators\FsUae\Data\Settings.ini
