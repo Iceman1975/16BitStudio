@@ -1,0 +1,139 @@
+1.8.3
+-EHB minimum enabled palette index selection (image will only use colors from this  index).
+-HAM6/8 raw data map saving (together with a palette file can be used to reacreate the image).
+-HAM6 turbo triple mode (faster version of triple mode). Also available as a ham6_tt or ham6_normal_turbo cli mode parameter.
+-HAM6: added bayer 8x8 dithering option (also available as a dither_bayer8x8 cli mode parameter that works in all modes). Useful for converting animations that normally exhibit strong banding in ham6.
+
+1.8.2:
+-Fixed non-ordered dithering bug (all non-sliced modes).
+-Added Robotron KC85/4 mode (experimental).
+
+1.8.1.3
+-Faster ehb_animation mode.
+
+1.8.1.2
+-Higher quality ehb_animation mode.
+
+1.8.1.1
+-Fixed a bug affecting non-amiga modes.
+
+1.8.1:
+-Amiga modes: fixed png saving bug that caused colors to be slightly darker.
+-Added Amiga OCS 2-color indexed mode (also as a ocs2 in cli mode).
+-Amiga 2 to 256-color mode plus HAM6: serpentine non-ordered dithering (experimental).
+-Amiga 2 to 256-color mode: higher precision non-ordered dithering.
+-Amiga 2 to 256-color mode: fixed CIEDE dithering glitches.
+-Amiga 2 to 256-color mode: faster bayer 8x8 dithering when CIEDE is also enabled.
+-Higher quality sliced ham6 conversion.
+-HAM6, HAM8: faster dual mode.
+-HAM6 CIE94 set glitch fix.
+-EHB extra palette optimization can now be disabled for better performance on slower machines.
+-EHB animation option added to the extra options tab (the same as ehb_animation cli mode).
+-HAM6 quadruple mode (very slow, experimental).
+-ZX/C64/Plus4: additional bayer 4x4 dithering option.
+
+1.8.0:
+-DynamicHires: disabled putting the darkest color to the beginning of the palette - most used color provides better quality.
+-EHB bug fixes.
+-ehb_animation cli mode for batch conversion of animation/video frames. It calculates more consistent palettes between frames resulting in more stable video.
+-New "distributed" and "distributed2" (cielab version) ham6 palette optimization modes offering further reduction of artefacts.
+-Added image resize tab (experimental). It uses incremental bicubic scaling.
+-Calculated palette is now sorted darkest to brightest.
+-Experimental IFF palette import.
+
+1.7.0:
+-Sliced ham6 now supports pchg iff export (experimental). To enable sliced ham6 use ham6_sliced command line parameter or sliced ham6 mode in the extra options tab.
+-Fixed sliced ham6 dithering bug.
+-Less frequent preview refresh when in batch mode to increase conversion speed.
+-Dither in cli mode now produces less visible ham6 dithering pattern.
+-ham6_fast in cli mode now uses cie94 instead of cie76 to improve picture quality.
+-HAM8: reduction of CIE94 glitching.
+-Experimental temporal checks-line mixed dithering to increase the number of simulated color levels in ham6 batch mode to 61 (slighly below rgb666). To enable use dither_temporal command line parameter. Requires batch mode (.txt source file list) and ham6. Designed to convert animations in cli batch mode.
+-Experimental reduced visibility "masked" checks-line mixed dithering to make dithering pattern less visible. To enable use dither_masked command line parameter. Requires batch mode (.txt source file list) and ham6. Designed to convert animations in cli batch mode.
+-Post-conversion screen allowing user to modify iff saving, ham map saving, palette saving, enable opening output image, enable opening source directory.
+-Extra EHB palette optimization.
+-Reduced memory usage.
+-Disabled updating the log in batch mode. Huge batch can overload it with text resulting in eating a lot of memory.
+-Added nopng cli option to skip png image saving (only iff will be saved).
+-Added threads_X cli parameter to set CPU thread limit (X=1 to available CPU threads)
+-Fixed ham6_faster cli option.
+-Fixed ham8 dual mode gui glitch.
+-To run ham_convert in cli mode under WSL install Xvfb: https://www.scivision.dev/xvfb-on-windows-subsystem-for-linux/
+
+1.6.1:
+-Dynamic Hires: recommended dithering propagation factor is now available as 0%.
+-Dynamic Hires: improved the following dithering modes - checks, bayer 2x2, bayer 4x4, bayer 8x8.
+-Amiga indexed modes: improved the following dithering modes - checks, bayer 2x2.
+-Fakemode: added 1x3 triple height, 3x1 normal and 3x1 triple width variants. After converting to 256-color AGA they can be used on Amiga.
+-Command line: txt file with a list of input files is now also accepted. Just replace full_image_path with bath_file_path. File extension must be txt.
+-Command line: new optional parameter quant_wu option enables Wu's color quantizer (usually faster than NeuQuant and often produces better results, enabled by default in non-ham modes).
+-Command line: additional optional parameters - divesity_X (X values listed below), propagation_X (X values listed below).
+-Command line: added ham6_slowest (slowest conversion, best quality), ham6_fastest, ham6_ludicrous, ham8_fastest modes.
+-Updated command line mode info: java -jar ham_convert.jar file_path mode (parameter 3+) (example: java -jar ham_convert.jar C:\img\test.png ham6). If you start the program without "java -jar" it will be launched in the background. Ham6 and ham8 modes support four conversion profiles - normal which offers good best compromise between speed and quality, fast - faster but still producing decent picture quality, fastest - lower quality than and faster than fast, slow - best quality when speed is not important.
+    Parameter 1 - source file path (mandatory): jpg/png/gif image or txt file with one image path per line for bath conversion (unicode console required for diacritic characters).
+    Parameter 2 - mode (mandatory): ham6, ham6_slow (ham6 with normal palette optimizer), ham6_slowest (ham6 with slower palette optimizer), ham6_fast, ham6_fastest, ham6_ludicrous, ham8, ham8_fast, ham8_fastest, ham8_slow, ocs4, ocs8, ocs16, ocs32, ehb, aga64, aga128, aga256, dhires (dynamic hires 16-color per line). Program will be terminated if mode parameter is missing/incorrect or any of the other parameters is incorrect.
+    Parameter 3+ - optional settings: dither (enable Bayer dithering for most modes, Checks for DynamicHires, Checks lines-mixed for ham6), dither_fs (enable Floyd-Steinberg dithering for most modes, Constrained Sierra Lite for DynamicHires, adds additional noise to ham6 that can increase the number of artefacts), norle (disable lossless iff rle compression), normalize (stretch contrast - normalize range to 0-255), black_bkd (force black background color - always set palette color 0 to black), fixed_pal (use fixed palette: 16-level grayscale on ocs, rgb453level+6level grayscale on aga), quant_wu (use Wu's color quantizer instead of NeuQuant), diversity_X (similar color removal strength, X=0-6 for ehb, X=0-9 for other modes, not supported in ham8 and dhires), propagation_X (error propagation factor, requires dither_fs, X=0-100).
+
+1.6.0:
+-Higher quality CIE94-based YJK conversion.
+-HAM5: save as 6-plane iff option (better compatibility, suggested by cholok).
+-HAM6: Alternative "slower" palette optimization mode.
+-HAM6: substantial reduction of CIE94 glitching.
+-EHB: increased initial palette size to 96. Added additional analysis step.
+-Amiga modes: black border (palette index 0) option.
+-Experimental command line mode: java -jar ham_convert.jar full_image_path mode (param3) (param4) (example: java -jar ham_convert.jar C:\img\test.png ham6). If you start the program without "java -jar" it will be launched in the background.
+ -Parameter 1 - source file path (unicode console required for diacritic characters).
+ -Parameter 2 - mode: ham6, ham6_fast, ham6_slow (ham6 with palette optimizer), ham8, ham8_fast, ham8_slow, ocs4, ocs8, ocs16, ocs32, ehb, aga64, aga128, aga256, dhires (dynamic hires 16-color per line). None specified=ham6 (parameters 3, 4 ignored). Ham6 will also be used if incorrect mode was specified.
+ -Parameter 3+ - optional settings: dither (enable Bayer dithering for most modes, Checks for DynamicHires, Checks lines-mixed for ham6), dither_fs (enable Floyd-Steinberg dithering for most modes, Constrained Sierra Lite for DynamicHires, adds additional noise to ham6 that can increase the number of artefacts), norle (disable lossless iff rle compression), normalize (stretch contrast - normalize range to 0-255), black_bkd (force black background color - always set palette color 0 to black), fixed_pal (use fixed palette: 16-level grayscale on ocs, rgb453level+6level grayscale on aga).
+
+1.5.0:
+-Fixed dynamichires accurate mode crash bug.
+-Fixed checks dithering glitch (Amiga indexed modes).
+-Fixed iff saving bug.
+-Improved dynamichires non-interlaced image quality.
+-Amiga indexed modes and dynamic hires: added bayer 2x2, bayer 4x4 and bayer 8x8 dithering (arbitrary-palette version, experimental). Enabling CIEDE makes bayer 8x8 quite slow. Bayer 4x4 and 8x8 supports strength regulation (5-95%, 100%=use recommended value).
+-Custom mode: added bayer 8x8 dithering.
+-Experimental MSX2+ screen 12 conversion (19268-color YJK mode).
+
+1.4.0.1:
+-Fixed incorrect behaviour of the extra ham6 palette optimization.
+
+1.4.0:
+-HAM8: experimental triple mode (3-pixel combination checking) and LAB mode (CIE76 and CIE94) adapted from HAM6. LAB visibly improves image quality. Triple mode combined with LAB is very slow (minimum 40 minutes for a 720x480 picture using 1 CPU thread).
+-HAM modes: experimental parallel calculation. Number of CPU threads can be adjusted in the extra options tab.
+-DynamicHires: fixed non-interlaced image conversion and iff saving. More colorful 8-color and 4-color modes.
+-Automatic hires/interlace flag setting.
+
+1.3.2:
+-HAM6: updated LAB mode configuration: earlier normal option was disabled due to inferior quality, aggressive was renamed agressive-CIE76, added aggressive-CIE94 - new variant based on the CIE94 instead of CIE76. CIE94 option is usually more accurate, but sometimes causes glithes in red/orange/brown areas and should be considered experimental. CIEDE2000 was also tested but for now is unsuitable.
+-HAM6: improved triple mode image quality when not using LAB colorspace, but normal RGB.
+-DynamicHires: improved checks dithering - higher contrast and saturation. Achieves better quality than other dithering modes and often reduces artefacting. It's still slow with 16 or more colors per line in hires. Speed also depends on a number of colors in each line of the source image (more combinations to check).
+-Amiga modes: preview tab (under construction).
+-Credits tab.
+-Wu's color quantizer by Xiaolin Wu (often performs better than NeuQuant, experimental).
+-HAM6: early preview of the multipalette HAM6 conversion using DynamicHires palette calculation routines. HAM6 PCHG iff saving does not work yet and there are only very basic gui options.
+-Removed oversaturation glitch mode - confusing and not very useful.
+-HAM7 AGA was disabled because it wasn't really possible on real hardware.
+-JRE11 compatibility fixes.
+
+1.3.1:
+-HAM6: new "aggressive" LAB mode that distributes error more evenly across 3 consecutive pixels. Produces less artefacts than the previous version. Requires dual mode or triple mode, but triple mode is recommended. Enabled by default.
+-HAM6: added new palette modes: blank+fixed HAM pattern (RGRG, RGBG on even lines+BGRG on odd lines, fakemode).
+-HAM6: added normal checks dithering.
+-Faster LAB HAM6 conversion.
+-Extra ham6 palette optimization speed tweaks.
+-Experimental preview of the HAM5 conversion (only dual mode, triple mode runs as a single mode, iff works on Paint.net).
+-Experimental preview of the HAM7 conversion.
+-DynamicHires: fixes a small palette editor bug appearing after the first conversion.
+-Fixed sliced mode crash bug.
+
+1.3.0:
+-DynamicHires: experimental PCHG IFF export. Supported screen modes: 4, 8, 16, 32, 64-color (EHB)-32 and EHB only in lores on real hardware.
+-DynamicHires: select replacement colors by measuring how well they maintain vertical color transitions from the source image. Reduces horizontal blockiness.
+-DynamicHires: user can now define how many colors from the initial common palette will be locked and never changed to reduce blockiness.
+-DynamicHires: palette editor.
+-DynamicHires: initial palette generation bug fix.
+-DynamicHires: more centralized user interface with controls similar to the rest of Amiga modes.
+-HAM6: alternative error calculation mode using CIELAB colorspace instead of RGB.
+-Non-HAM Amiga modes, DynamicHires and Custom mode: added checks dithering optimized for indexed color modes.
+-Fixed non-Windows startup crash bug.

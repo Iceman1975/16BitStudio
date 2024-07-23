@@ -1,0 +1,1 @@
+java -Xms500m -Xmx2g -jar ham_convert_1.8.3.jar %1 ham6 norle
