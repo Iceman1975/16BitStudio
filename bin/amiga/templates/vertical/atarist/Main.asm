@@ -1,6 +1,6 @@
     SECTION TEXT		;CODE Section
 	
-	include    "./code/const.asm"
+	include    "./generated/const.asm"
 init:
     ;pea    	game     ;Push address to call to onto stack
     ;move.w  #$26,-(sp)  ;Supexec (38: set supervisor execution)
@@ -100,24 +100,27 @@ game_skip1:
 	include    "./data/ST_sound_data.asm" 
 	
 	
-	include    "./global.asm"
-	include    "./code/list.asm"
+	include    "./code/global.asm"
+	
 	include    "./code/joystick.asm"
 	
 	include    "./code/screen.asm"
 	include    "./code/screen_scrolling.asm"
+	include    "./code/list.asm"
 	include    "./code/enemies.asm"
-	include    "./code/player.asm"
-	include    "./code/pot.asm"
 	include    "./code/bullet.asm"
 	include    "./code/explosions.asm"
+	include    "./code/extras.asm"
+	
+	include    "./code/player.asm"
+	include    "./code/pot.asm"
 	include    "./code/collision.asm"
 	include    "./code/sound.asm"
 	include    "./code/game.asm"
-	include    "./code/extras.asm"
+
 
 	ifd        SCRIPTS_ENABLE
-	include    "./code/scripts.asm"  
+	include    "./generated/scripts.asm"  
 	endif
   
 	include    "./data/ST_tiles.asm"
